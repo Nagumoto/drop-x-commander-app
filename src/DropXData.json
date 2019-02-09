@@ -1052,7 +1052,7 @@
                                         "Special": "SC"
                                     }
                                 ],
-                                "*": "*May take Missile Pods for +5pts"
+                                "*": "* May take Missile Pods for +5pts"
                             },
                             {
                                 "Name": "Condor",
@@ -1092,9 +1092,10 @@
                                         "Special": "SC"
                                     }
                                 ],
-                                "*": "*May take Missile Pods for +5pts"
+                                "*": "* May take Missile Pods for +5pts"
                             },
                             {
+                                "TypeName": "Raven",
                                 "Name": "Raven A",
                                 "A": "5",
                                 "Mv": "24\"",
@@ -1144,7 +1145,7 @@
                                         "Special": "SC"
                                     }
                                 ],
-                                "*": "*May take Missile Pods for +5pts"
+                                "*": "* May take Missile Pods for +5pts"
                             },
                             {
                                 "Name": "Bear",
@@ -1307,6 +1308,87 @@
                     {
                         "Command": [
                             {
+                                "Name": "Oppressor",
+                                "A": "10",
+                                "Mv": "8\"",
+                                "CM": "A",
+                                "DP": "8",
+                                "Pts": 150,
+                                "Type": "Vehicle",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "T": "d3",
+                                "Special": "Walker",
+                                "Weapons": [
+                                    {
+                                        "Name": "Electroweb Caster",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "Tech Killer"
+                                    },
+                                    {
+                                        "Name": "Plasma Carbine(L)",
+                                        "E": "11",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Alt-1, Demolisher-2"
+                                    },
+                                    {
+                                        "Name": "Plasma Carbine(L)",
+                                        "E": "11",
+                                        "SH": "2",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Plasma Carbine(R)",
+                                        "E": "11",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Alt-1, Demolisher-2"
+                                    },
+                                    {
+                                        "Name": "Plasma Carbine(R)",
+                                        "E": "11",
+                                        "SH": "2",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Razor Claws",
+                                        "E": "10",
+                                        "SH": "2",
+                                        "AC": "+3",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "8\"",
+                                        "ARC": "F",
+                                        "Special": "-"
+                                    }
+                                ]
+                            },
+                            {
                                 "Name": "Desolator",
                                 "A": "6",
                                 "Mv": "12\"",
@@ -1340,13 +1422,41 @@
                                         "R(C)": "9\"",
                                         "MF": "9\"",
                                         "ARC": "F",
-                                        "Special": "Alt-1, Destroyer 5+, Flame",
-                                        "*": [
-                                            "* Structures & Forests: within 6\" lose 3DP and gain a Fire Token, within 12\" lose 3DP",
-                                            "* Vehicles & Infantry: within 6\" hit on 3+, within 12\" hit on 6+"
-                                        ]
+                                        "Special": "Alt-1, Destroyer 5+, Flame"
                                     }
+                                ],
+                                "*": [
+                                    "* Structures & Forests: within 6\" lose 3DP and gain a Fire Token, within 12\" lose 3DP",
+                                    "* Vehicles & Infantry: within 6\" hit on 3+, within 12\" hit on 6+"
                                 ]
+                            },
+                            {
+                                "Name": "Overseer",
+                                "A": "6",
+                                "Mv": "12\"",
+                                "CM": "A",
+                                "DP": "7",
+                                "Pts": 190,
+                                "Type": "Aircraft",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "LZ": "L",
+                                "T": "-",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Ion Cradle*",
+                                        "E": "6",
+                                        "SH": "6",
+                                        "AC": "2+/6+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AA, Strafe"
+                                    }
+                                ],
+                                "*": "* Ion Cradle: This ability effects any friendly Scourge weapons containing the word ‘Plasma’ in their name that are within 9”. When an affected squad activates they may choose to gain one of the following modifiers to their Plasma weapon profiles, either 6” to their R(f) and R(c) values OR they may double their Sh value but suffer -1 to their E value and lose any Demolisher and Devastator special rules they may have. Weapons with a range of CC, and Units with a Category of Airstrike, are unaffected by this rule. This may not be combined with the effects of another Ion Cradle and does not prevent the Ion Cradle from firing."
                             }
                         ]
                     },
@@ -1377,12 +1487,50 @@
                                         "Special": "Demolisher-2, AB"
                                     }
                                 ]
+                            },
+                            {
+                                "Name": "Stalker Pack",
+                                "A": "10",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "1",
+                                "Pts": 25,
+                                "Type": "Vehicle",
+                                "Category": "Standard",
+                                "S+C": "3-9",
+                                "T": "d1",
+                                "Special": "Walker",
+                                "Weapons": [
+                                    {
+                                        "Name": "Electroweb Caster",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "Tech Killer"
+                                    },
+                                    {
+                                        "Name": "Razor Claws",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "-"
+                                    }
+                                ]
                             }
                         ]
                     },
                     {
                         "Troops": [
                             {
+                                "TypeName": "",
                                 "Name": "Warriors",
                                 "A": "2",
                                 "Mv": "2\"",
@@ -1393,7 +1541,7 @@
                                 "Category": "Troops",
                                 "CQB": "1",
                                 "F": "4+",
-                                "S+C": "2-3, B2B",
+                                "S+C": "2-3 B2B",
                                 "T": "c1",
                                 "Special": "-",
                                 "Name2": "Aged Ones",
@@ -1406,7 +1554,7 @@
                                 "Category2": "Troops",
                                 "CQB2": "2",
                                 "F2": "2+",
-                                "S+C2": "2-3, B2B",
+                                "S+C2": "2-3 B2B",
                                 "T2": "c1",
                                 "Special2": "Bloodthirsty",
                                 "Weapons": [
@@ -1431,9 +1579,9 @@
                                         "MF": "2\"",
                                         "ARC": "F/S/R",
                                         "Special": "Alt-1 *",
-                                        "*": "* This weapon may only be fired if the Unit has 3 or more DP remaining."
                                     }
-                                ]
+                                ],
+                                "*": "* This weapon may only be fired if the Unit has 3 or more DP remaining."
                             }
                         ]
                     },
@@ -1449,8 +1597,8 @@
                                 "Type": "Aircraft",
                                 "Category": "Scout",
                                 "S+C": "4-8 Wide",
-                                "LZ": "Tiny",
                                 "T": "b1",
+                                "LZ": "Tiny",
                                 "Special": "-",
                                 "Weapons": [
                                     {
@@ -1465,6 +1613,45 @@
                                         "Special": "AA"
                                     }
                                 ]
+                            },
+                            {
+                                "Name": "Monitor",
+                                "A": "3",
+                                "Mv": "4\"",
+                                "CM": "A",
+                                "DP": "1",
+                                "Pts": 8,
+                                "Type": "Aircraft",
+                                "Category": "Scout",
+                                "S+C": "4-8 Wide",
+                                "T": "b1",
+                                "LZ": "Tiny",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Self Destruct*",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "*",
+                                        "R(F)": "*",
+                                        "R(C)": "*",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1, Area-S"
+                                    },
+                                    {
+                                        "Name": "Twin Shard Cannons",
+                                        "E": "5",
+                                        "SH": "4",
+                                        "AC": "2+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1"
+                                    }
+                                ],
+                                "*": "* Self Destruct: This weapon may only be used by a single Monitor in a squad per turn that has also not disembarked that turn. Place a small area marker over the center of the Monitor instead of rolling to hit. Once the attack has been resolved, remove the Monitor from play."
                             },
                             {
                                 "Name": "Prowler",
@@ -1517,9 +1704,8 @@
                                 "Type": "Vehicle",
                                 "Category": "Heavy",
                                 "S+C": "2-6",
-                                "T": "D1, a1.5",
+                                "T": "*E1, a1.5",
                                 "Special": "Skimmer",
-                                "*": "Each Slayer comes with a single unit of Razorworms for no additional cost.",
                                 "Weapons": [
                                     {
                                         "Name": "Twin Plasma Cannons",
@@ -1532,7 +1718,8 @@
                                         "ARC": "F/S/R",
                                         "Special": "Demolisher-2, AB"
                                     }
-                                ]
+                                ],
+                                "*": "Each Slayer comes with a single unit of Razorworms for no additional cost."
                             },
                             {
                                 "Name": "Tormentor",
@@ -1544,9 +1731,8 @@
                                 "Type": "Vehicle",
                                 "Category": "Heavy",
                                 "S+C": "2-4",
-                                "T": "D1, a1.5",
+                                "T": "*E1, a1.5",
                                 "Special": "Skimmer",
-                                "*": "Each Tormentor comes with a single unit of Razorworms for no additional cost.",
                                 "Weapons": [
                                     {
                                         "Name": "Acid Streamer",
@@ -1559,12 +1745,251 @@
                                         "ARC": "F/S/R",
                                         "Special": "Flame"
                                     }
-                                ]
+                                ],
+                                "*": "Each Tormentor comes with a single unit of Razorworms for no additional cost."
                             }
                         ]
                     },
                     {
                         "Support": [
+                            {
+                                "TypeName": "Annihilator",
+                                "Name": "Ground Mode",
+                                "A": "7",
+                                "Mv": "2\"",
+                                "CM": "A",
+                                "DP": "6",
+                                "Pts": 140,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "1",
+                                "LZ": "-",
+                                "T": "-",
+                                "Special": "Walker, Transition",
+                                "Name2": "Flight Mode",
+                                "A2": "5",
+                                "Mv2": "18\"",
+                                "CM2": "A",
+                                "DP2": "6",
+                                "Pts2": 140,
+                                "Type2": "Aircraft",
+                                "Category2": "Support",
+                                "S+C2": "1",
+                                "LZ2": "L",
+                                "T2": "-",
+                                "Special2": "Transition",
+                                "Weapons": [
+                                    {
+                                        "Name": "Plasma Bombard*",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "4+",
+                                        "R(F)": "24\"",
+                                        "R(C)": "24\"",
+                                        "MF": "0\"",
+                                        "ARC": "F",
+                                        "Special": "IF, Area-L, Demolisher-2, Alt-1"
+                                    },
+                                    {
+                                        "Name": "Plasma Bombard*",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "4+",
+                                        "R(F)": "24\"",
+                                        "R(C)": "24\"",
+                                        "MF": "0\"",
+                                        "ARC": "F",
+                                        "Special": "IF, Area-S, Devastator-2, Demolisher-2, Alt-1"
+                                    }
+                                ],
+                                "*": "* This weapon may not fire in flight mode."
+                            },
+                            {
+                                "Name": "Reaver Heavy Gunship",
+                                "A": "5",
+                                "Mv": "24\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 55,
+                                "Type": "Aircraft",
+                                "Category": "Support",
+                                "S+C": "1-4",
+                                "T": "-",
+                                "LZ": "S",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Plasma Hose (Spread Pattern)",
+                                        "E": "4",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "12\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Plasma Hose (Concentrated Pattern)",
+                                        "E": "9",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "12\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Plasma Lance (L)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Plasma Lance (R)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Ravager Pack",
+                                "A": "10",
+                                "Mv": "4\"",
+                                "CM": "A",
+                                "DP": "1",
+                                "Pts": 45,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "3 Wide",
+                                "T": "d1",
+                                "Special": "Walker, Infiltrate-8",
+                                "Weapons": [
+                                    {
+                                        "Name": "AA Weapon",
+                                        "E": "6",
+                                        "SH": "2",
+                                        "AC": "3+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "AA"
+                                    },
+                                    {
+                                        "Name": "AA Weapon",
+                                        "E": "6",
+                                        "SH": "2",
+                                        "AC": "3+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "AA"
+                                    },
+                                    {
+                                        "Name": "Razor Claws",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "-"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Screamer",
+                                "A": "7",
+                                "Mv": "6\"",
+                                "CM": "E+1",
+                                "DP": "4",
+                                "Pts": 40,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "1",
+                                "T": "s1*",
+                                "Special": "Rare, Abhorrent**, Walker",
+                                "Weapons": [
+                                    {
+                                        "Name": "Huge Claws",
+                                        "E": "11",
+                                        "SH": "2",
+                                        "AC": "2+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    }
+                                ],
+                                "*": "* The Screamer must use the Raider as its Transport.",
+                                "**": "** Special Rule - Abhorrent: If the Screamer is within 6” of enemy infantry (or within 6” of a building or Forest containing enemy infantry); they suffer a +1 modifier when searching for objectives (to a maximum of 6+); they suffer +1AC to all their weapons; they reduce their CQB value by half rounded up to the nearest 0.5; and they halve any points they would contribute to focal points or ground control (rounded up). This rule only applies if the Screamer is not embarked in a transport."
+                            },
+                            {
+                                "Name": "Corruptor",
+                                "A": "5",
+                                "Mv": "24\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 80,
+                                "Type": "Aircraft",
+                                "Category": "Support",
+                                "S+C": "1-2",
+                                "LZ": "S",
+                                "T": "-",
+                                "Special": "Rare",
+                                "Weapons": [
+                                    {
+                                        "Name": "Plasma Hose (Spread Pattern)",
+                                        "E": "4",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "12\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Plasma Hose (Concentrated Pattern)",
+                                        "E": "9",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "12\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Razorworm Pod*",
+                                        "E": "*",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "L-3"
+                                    }
+                                ],
+                                "*": "* Razorworm Pod: If this weapon hits a structure, the structure suffers 1 DP (if it is able to take damage), resolve falling masonry and then place a base of razor worms in the building. This weapon is able to target a structure that contains friendly models. As long as this weapon hits, it will deploy a base of Razorworms, even if no damage is done."
+                            },
                             {
                                 "Name": "Reaper",
                                 "A": "8",
@@ -1590,14 +2015,224 @@
                                         "Special": "AA"
                                     }
                                 ]
+                            },
+                            {
+                                "Name": "Eradicator",
+                                "A": "10",
+                                "Mv": "8\"",
+                                "CM": "A*",
+                                "DP": "5",
+                                "Pts": 145,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "1",
+                                "T": "d3",
+                                "Special": "Rare, Walker, *Active Camouflage",
+                                "Weapons": [
+                                    {
+                                        "Name": "Electroweb Caster",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "Tech Killer"
+                                    },
+                                    {
+                                        "Name": "Plasma Fusillade",
+                                        "E": "7",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "AA"
+                                    },
+                                    {
+                                        "Name": "Plasma Fusillade",
+                                        "E": "7",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "AA"
+                                    },
+                                    {
+                                        "Name": "Razor Claws",
+                                        "E": "10",
+                                        "SH": "2",
+                                        "AC": "3+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "8\"",
+                                        "ARC": "F",
+                                        "Special": "-"
+                                    }
+                                ],
+                                "*": "* Active Camouflage: The Erradicator gains E+2 if it did not Disembark in the same turn."
                             }
                         ]
                     },
                     {
-                        "Exotic": []
+                        "Exotic": [
+                            {
+                                "Name": "Eviscerators Pack",
+                                "A": "4",
+                                "Mv": "2\"",
+                                "CM": "P4+*",
+                                "DP": "3*",
+                                "Pts": 50,
+                                "Type": "Infantry",
+                                "Category": "Exotic",
+                                "CQB": "6",
+                                "F": "2+",
+                                "S+C": "2 B2B",
+                                "T": "c1",
+                                "Special": "DF, Tough*, Rare, Bloodthirsty, Reckless**",
+                                "Weapons": [
+                                    {
+                                        "Name": "Glaives",
+                                        "E": "8",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "2\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "RW-1"
+                                    }
+                                ],
+                                "*": "* Tough: Eviscerators are extremely resilient, large targets. Collateral Damage only happens on a roll of 5+ against a feature. Destroyers have a Passive Countermeasures save of 4+ to represent their ability to shrug off apparently mortal injuries with distain!",
+                                "**": "** Reckless Abandon: Eviscerators add +1 when rolling to search for objectives (to a maximum of 6+) and -1 when searching for Intel."
+                            },
+                            {
+                                "Name": "Destroyer Pack",
+                                "A": "4",
+                                "Mv": "2\"",
+                                "CM": "P4+*",
+                                "DP": "3*",
+                                "Pts": 50,
+                                "Type": "Infantry",
+                                "Category": "Exotic",
+                                "CQB": "3",
+                                "F": "2+",
+                                "S+C": "2 B2B",
+                                "T": "c1",
+                                "Special": "DF, Tough*",
+                                "Weapons": [
+                                    {
+                                        "Name": "Shard Cannon",
+                                        "E": "5",
+                                        "SH": "6",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "2\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "RW-2, Alt-1, **"
+                                    },
+                                    {
+                                        "Name": "Plasma Charger",
+                                        "E": "10",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "2\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "RW-1, L-1, Alt-1, **"
+                                    }
+                                ],
+                                "*": "* Tough: Destroyers are extremely resilient, large targets. Collateral Damage only happens on a roll of 5+ against a feature.. Destroyers have a Passive Countermeasures save of 4+ to represent their ability to shrug off apparently mortal injuries with distain!",
+                                "**": "** Blast their way in!: Destroyers may enter a structure through any wall, whether it has an entrance or not and may enter even if enemy troops are manning the wall. They may also fire weapons when entering, either at troops on the wall of the building they are entering or against the structure itself. They may do so if not normally allowed to and even when disembarking directly into the structure from a transport (measure line of sight from the transport when doing so - not that that’s likely to be a problem!). If the building is destroyed in the process, then the Destroyers are all killed instantly."
+                            }
+                        ]
                     },
                     {
                         "Transport": [
+                            {
+                                "Name": "Harbinger",
+                                "A": "6",
+                                "Mv": "18\"",
+                                "CM": "A",
+                                "DP": "4",
+                                "Pts": 45,
+                                "Type": "Aircraft",
+                                "Category": "Transport",
+                                "S+C": "1",
+                                "T": "D3, V2",
+                                "LZ": "L",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Plasma Bombs",
+                                        "E": "11",
+                                        "SH": "1",
+                                        "AC": "5+",
+                                        "R(F)": "3\"",
+                                        "R(C)": "3\"",
+                                        "MF": "9\"",
+                                        "ARC": "R",
+                                        "Special": "Demolisher-2"
+                                    },
+                                    {
+                                        "Name": "Mini Arc Caster*",
+                                        "Pts": 15,
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "2+/6+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "9\"",
+                                        "ARC": "F",
+                                        "Special": "AA"
+                                    }
+                                ],
+                                "*": "* Mini Arc Caster Upgrade: A Harbinger may be upgraded with a Mini Arc Caster for +15pts"
+                            },
+                            {
+                                "Name": "Raider",
+                                "A": "5",
+                                "Mv": "18\"",
+                                "CM": "A",
+                                "DP": "5",
+                                "Pts": 70,
+                                "Type": "Aircraft",
+                                "Category": "Transport",
+                                "S+C": "1",
+                                "T": "S1, V4",
+                                "LZ": "M",
+                                "Special": "Rare",
+                                "Weapons": [
+                                    {
+                                        "Name": "Acid Hose",
+                                        "E": "4",
+                                        "SH": "5",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "Flame"
+                                    },
+                                    {
+                                        "Name": "Acid Hose",
+                                        "E": "4",
+                                        "SH": "5",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "Flame"
+                                    }
+                                ]
+                            },
                             {
                                 "Name": "Despoiler",
                                 "A": "5",
@@ -1608,10 +2243,9 @@
                                 "Type": "Aircraft",
                                 "Category": "Transport",
                                 "S+C": "1",
-                                "LZ": "M",
-                                "T": "A9",
+                                "T": "A9, V4",
+                                "LZ": "L",
                                 "Special": "-",
-                                "*": "*May take Twin Plasma Cannons for +30pts",
                                 "Weapons": [
                                     {
                                         "Name": "*Twin Plasma Cannons",
@@ -1625,7 +2259,8 @@
                                         "ARC": "F/S",
                                         "Special": "Demolisher-2, AB"
                                     }
-                                ]
+                                ],
+                                "*": "*May take Twin Plasma Cannons for +30pts"
                             },
                             {
                                 "Name": "Marauder",
@@ -1637,8 +2272,8 @@
                                 "Type": "Aircraft",
                                 "Category": "Transport",
                                 "S+C": "1",
-                                "LZ": "S",
-                                "T": "A3",
+                                "T": "A3, V2",
+                                "LZ": "M",
                                 "Special": "-",
                                 "Weapons": [
                                     {
@@ -1666,6 +2301,7 @@
                                 ]
                             },
                             {
+                                "TypeName": "",
                                 "Name": "Intruder Alpha",
                                 "A": "5",
                                 "Mv": "30\"",
@@ -1675,20 +2311,20 @@
                                 "Type": "Aircraft",
                                 "Category": "Transport",
                                 "S+C": "1",
-                                "LZ": "S",
                                 "T": "C2",
+                                "LZ": "S",
                                 "Special": "-",
                                 "Name2": "Intruder Beta",
                                 "A2": "5",
                                 "Mv2": "30\"",
                                 "CM2": "A",
                                 "DP2": "1",
-                                "Pts2": 36,
+                                "Pts2": 24,
                                 "Type2": "Aircraft",
                                 "Category2": "Transport",
                                 "S+C2": "1",
-                                "LZ2": "S",
                                 "T2": "B4",
+                                "LZ2": "S",
                                 "Special2": "-",
                                 "Weapons": [
                                     {
@@ -1718,7 +2354,7 @@
                             {
                                 "Name": "Invader",
                                 "A": "8",
-                                "Mv": "6\"",
+                                "Mv": "6\"*",
                                 "CM": "A",
                                 "DP": "2",
                                 "Pts": 15,
@@ -1726,7 +2362,8 @@
                                 "Category": "Transport",
                                 "S+C": "1",
                                 "T": "C3, a1.5",
-                                "Special": "Skimmer"
+                                "Special": "Skimmer",
+                                "*": "* Speed Boost: The Invader may move an additional 3” when it is able to move at its normal maximum speed. This does NOT increase its MV value however, so cannot take effect when disembarking/embarking etc."
                             }
                         ]
                     },
@@ -1735,6 +2372,7 @@
                             {
                                 "Name": "Corsair",
                                 "A": "5",
+                                "Mv": "-",
                                 "CM": "A",
                                 "DP": "1",
                                 "Pts": 35,
@@ -1754,15 +2392,42 @@
                                         "R(C)": "12\"",
                                         "MF": "-",
                                         "ARC": "N",
-                                        "Special": "Demolisher-2, AA, AB",
-                                        "*": "* The Whites of Their Eyes: The Corsair only suffers a +1 modifier to its Ac value when Reaction Firing from a distance of 6\" or less."
+                                        "Special": "Demolisher-2, AA, AB"
                                     }
-                                ]
+                                ],
+                                "*": "* The Whites of Their Eyes: The Corsair only suffers a +1 modifier to its Ac value when Reaction Firing from a distance of 6\" or less."
                             }
                         ]
                     },
                     {
-                        "*": [
+                        "Other": [
+                            {
+                                "Name": "Vampires",
+                                "A": "2",
+                                "Mv": "12\"",
+                                "CM": "E+1",
+                                "DP": "1",
+                                "Pts": 10,
+                                "Type": "Aircraft",
+                                "Category": "Grasping*",
+                                "S+C": "1-4",
+                                "T": "v1",
+                                "Special": "Rare",
+                                "Weapons": [
+                                    {
+                                        "Name": "Cutting Harness",
+                                        "E": "6",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "2\"",
+                                        "R(C)": "2\"",
+                                        "MF": "9\"",
+                                        "ARC": "F",
+                                        "Special": "(Focus-2), AA, (May not reaction fire)"
+                                    }
+                                ],
+                                "*": "* Grasping: Vampiresdo not take up a slot in the standard army roster. Instead, assign a squad to one dropship in a battle group. This squad counts as sharing that transport for the duration of the game. They activate with their assigned battlegroups."
+                            },
                             {
                                 "Name": "Razorworms",
                                 "A": "3",
@@ -1774,10 +2439,9 @@
                                 "Category": "*",
                                 "CQB": "4",
                                 "F": "1+",
-                                "S+C": "1",
-                                "T": "d1",
+                                "S+C": "**",
+                                "T": "e1",
                                 "Special": "Dodge 5+, Living Weapon",
-                                "*": "* Razorworms are only ever taken as part of other Unit choices (such as Slayers). As such they do not have a Category. Their points cost is already included with the parent Units, but are still used for calculating Kill Points.",
                                 "Weapons": [
                                     {
                                         "Name": "Teeth & Claws",
@@ -1790,7 +2454,9 @@
                                         "ARC": "F/S/R",
                                         "Special": "RW-1"
                                     }
-                                ]
+                                ],
+                                "*": "* Razorworms are only ever taken as part of other Unit choices (such as Slayers). As such they do not have a Category. Their points cost is already added into the Transport cost, but still contribute their points cost towards kill points and scenarios.",
+                                "**": "** If there are multiple razor worm bases in a Structure or Forest then they form a single Squad and therefore make a single roll for objectives."
                             }
                         ]
                     }
