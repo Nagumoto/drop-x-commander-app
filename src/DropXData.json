@@ -1578,7 +1578,7 @@
                                         "R(C)": "12\"",
                                         "MF": "2\"",
                                         "ARC": "F/S/R",
-                                        "Special": "Alt-1 *",
+                                        "Special": "Alt-1 *"
                                     }
                                 ],
                                 "*": "* This weapon may only be fired if the Unit has 3 or more DP remaining."
@@ -2372,7 +2372,6 @@
                             {
                                 "Name": "Corsair",
                                 "A": "5",
-                                "Mv": "-",
                                 "CM": "A",
                                 "DP": "1",
                                 "Pts": 35,
@@ -2482,7 +2481,7 @@
                                     {
                                         "Name": "RX-1 Railgun Pair",
                                         "E": "11",
-                                        "SH": "2",
+                                        "SH": "1",
                                         "AC": "2+",
                                         "R(F)": "∞",
                                         "R(C)": "24\"",
@@ -2501,7 +2500,158 @@
                                         "ARC": "F/S",
                                         "Special": "CA-1"
                                     }
+                                ],
+                                "*": "* Any Type-2 Squad that contains one or more Zeus counts as a Command Choice."
+                            },
+                            {
+                                "Name": "Tiamat",
+                                "A": "6",
+                                "Mv": "16\"",
+                                "CM": "A",
+                                "DP": "6",
+                                "Pts": 190,
+                                "Type": "Aircraft",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "LZ": "L",
+                                "T": "-",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Super Heavy Rail Cannon",
+                                        "E": "13",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "∞",
+                                        "R(C)": "36\"",
+                                        "MF": "6\"",
+                                        "ARC": "F",
+                                        "Special": "Devastator-2"
+                                    },
+                                    {
+                                        "Name": "Super Heavy Rail Cannon",
+                                        "E": "13",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "∞",
+                                        "R(C)": "36\"",
+                                        "MF": "6\"",
+                                        "ARC": "F",
+                                        "Special": "Devastator-2"
+                                    },
+                                    {
+                                        "Name": "Stealth Missile Battery",
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "9\"",
+                                        "ARC": "F",
+                                        "Special": "SC"
+                                    }
                                 ]
+                            },
+                            {
+                                "Name": "Nemesis Command Walker",
+                                "A": "9",
+                                "Mv": "4\"",
+                                "CM": "A",
+                                "DP": "8",
+                                "Pts": 190,
+                                "Type": "Walker",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "T": "a6",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "RX-1 Railgun (L)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "RX-1 Railgun (R)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Nemesis Laser (Focused)",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Devastator-2, Alt-1"
+                                    },
+                                    {
+                                        "Name": "Nemesis Laser (Split Beam)",
+                                        "E": "9",
+                                        "SH": "3",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Strafe, Alt-1"
+                                    }
+                                ]
+                            },
+                            {
+                                "TypeName": "Hera",
+                                "Name": "Ground Mode",
+                                "A": "9",
+                                "Mv": "6\"",
+                                "CM": "A, E+1",
+                                "DP": "3",
+                                "Pts": 95,
+                                "Type": "Vehicle",
+                                "Category": "Command",
+                                "S+C": "1-2",
+                                "T": "a1",
+                                "Special": "Walker, Transition, Guardian*",
+                                "Name2": "Flight Mode",
+                                "A2": "7",
+                                "Mv2": "24\"**",
+                                "CM2": "A, E+1",
+                                "DP2": "3",
+                                "Pts2": 95,
+                                "Type2": "Vehicle",
+                                "Category2": "Command",
+                                "S+C2": "1-2",
+                                "T2": "a1",
+                                "Special2": "Transition, Guardian, Short Hop***",
+                                "Weapons": [
+                                    {
+                                        "Name": "RX 1-L Railgun Pair",
+                                        "E": "10",
+                                        "SH": "2",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    }
+                                ],
+                                "*": "Retinue: Hera may take a Retinue of up to 5 Apollo-A Strike Walkers (up to 4 if a Guardian is chosen) at the cost of 40pts per Apollo-A.",
+                                "**": "* Guardian: If taken in a squad of 2, the second Hera costs 66pts. Commanders may not be mounted in a Guardian Unit.",
+                                "***": "** Air Drop: When Disembarking, its parent dropship may use its full Mv value and does not have to land (the usual rules apply when Embarking). Note that this does not count as using Flight Mode, since it is a Disembark placement.",
+                                "****": "*** Short Hop: The Hera’s jump jets can only be run intermittently and cannot be used in sustained flight. As such, it MUST end its move in Ground Mode and may not use Flight Mode on turn 1 of the game or in the same turn as Embarking or Disembarking."
                             }
                         ]
                     },
@@ -2524,7 +2674,7 @@
                                         "Special": "Walker",
                                         "Weapons": [
                                             {
-                                                "Name": "RX-1 Railgun",
+                                                "Name": "RX-1 Railgun*",
                                                 "E": "11",
                                                 "SH": "1",
                                                 "AC": "2+",
@@ -2535,7 +2685,7 @@
                                                 "Special": "CA-1, Scanning Array*"
                                             },
                                             {
-                                                "Name": "RX-20 Minigun",
+                                                "Name": "RX-20 Minigun*",
                                                 "E": "4",
                                                 "SH": "2",
                                                 "AC": "3+",
@@ -2554,7 +2704,7 @@
                                         "Mv": "3\"",
                                         "CM": "A",
                                         "DP": "2",
-                                        "Pts": 63,
+                                        "Pts": 60,
                                         "Type": "Vehicle",
                                         "Category": "Standard",
                                         "S+C": "1-6*",
@@ -2621,6 +2771,54 @@
                                                 "Special": "CA-1"
                                             }
                                         ]
+                                    },
+                                    {
+                                        "Name": "Type-1 Menchit A2",
+                                        "A": "9",
+                                        "Mv": "3\"",
+                                        "CM": "A",
+                                        "DP": "2",
+                                        "Pts": 55,
+                                        "Type": "Vehicle",
+                                        "Category": "Standard",
+                                        "S+C": "1-6*",
+                                        "T": "a1",
+                                        "Special": "Walker",
+                                        "Weapons": [
+                                            {
+                                                "Name": "RX-666 Flamethrower",
+                                                "E": "4",
+                                                "SH": "8",
+                                                "AC": "3+",
+                                                "R(F)": "9\"",
+                                                "R(C)": "9\"",
+                                                "MF": "3\"",
+                                                "ARC": "F/S",
+                                                "Special": "CA-1, Flame"
+                                            },
+                                            {
+                                                "Name": "RX-20 Minigun Triad",
+                                                "E": "4",
+                                                "SH": "6",
+                                                "AC": "3+",
+                                                "R(F)": "36\"",
+                                                "R(C)": "12\"",
+                                                "MF": "3\"",
+                                                "ARC": "F/S",
+                                                "Special": "CA-1"
+                                            },
+                                            {
+                                                "Name": "Foeslayer Missiles",
+                                                "E": "10",
+                                                "SH": "1",
+                                                "AC": "3+",
+                                                "R(F)": "48\"",
+                                                "R(C)": "12\"",
+                                                "MF": "3\"",
+                                                "ARC": "F/S",
+                                                "Special": "CA-1, L-2, Devastator-2"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -2666,6 +2864,34 @@
                                         "Special": "SC, Sniper"
                                     }
                                 ]
+                            },
+                            {
+                                "Name": "Immortal AM Rifle Team",
+                                "A": "3",
+                                "Mv": "2\"",
+                                "CM": "E+1",
+                                "DP": "5",
+                                "Pts": 45,
+                                "Type": "Infantry",
+                                "Category": "Troops",
+                                "CQB": "1",
+                                "F": "3+",
+                                "S+C": "2 B2B",
+                                "T": "c1",
+                                "Special": "Rare",
+                                "Weapons": [
+                                    {
+                                        "Name": "RXp-14 Longreach Rifle",
+                                        "E": "7",
+                                        "SH": "5",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "0\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "SC, Sniper, RW-1"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -2677,7 +2903,7 @@
                                 "Mv": "6\"",
                                 "CM": "A",
                                 "DP": "1",
-                                "Pts": 23,
+                                "Pts": 20,
                                 "Type": "Vehicle",
                                 "Category": "Scout",
                                 "S+C": "2-6",
@@ -2693,7 +2919,7 @@
                                         "R(C)": "12\"",
                                         "MF": "6\"",
                                         "ARC": "F",
-                                        "Special": "SC, AA"
+                                        "Special": "SC, AA, CA-1"
                                     },
                                     {
                                         "Name": "RX-20 Minigun",
@@ -2703,10 +2929,68 @@
                                         "R(F)": "36\"",
                                         "R(C)": "12\"",
                                         "MF": "6\"",
-                                        "ARC": "F/S",
-                                        "Special": "-"
+                                        "ARC": "F",
+                                        "Special": "CA-1"
                                     }
                                 ]
+                            },
+                            {
+                                "Name": "Mercury Scout Drone",
+                                "A": "4",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "1",
+                                "Pts": 15,
+                                "Type": "Aircraft",
+                                "Category": "Scout",
+                                "S+C": "4",
+                                "T": "b1",
+                                "Special": "Scanner*",
+                                "Weapons": [
+                                    {
+                                        "Name": "RN-5 Skyhammer Missile**",
+                                        "E": "11",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "L-2, IF"
+                                    }
+                                ],
+                                "*": "* Scanner: This unit may contribute its points cost to determine who holds a Focal Point despite being an Aircraft. AnyUnit searching a building for an objective that is within 6” of a Mercury Drone receives a -1 Modifier to the roll, to a minimum of 2+. This is not cumulative with other Mercury Drones and can only effect 1 Feature per turner Mercury Squad. When any unit within 6” of a Mercury Drone rolls for a piece of intel, they may re-roll a roll of 1 once per intel. Note: This modifier does accumulate with transports, and/or Occupiers Advantage to a minimum of 2+ (e.g. if you are searching for an objective with a Mercury Drone within 6”, a Transport within 1”, and Occupiers Advantage your roll to find the objective in a Large Feature would be 3+).",
+                                "**": "** Triton A2 Missile Upgrade: This weapon upgrade can only be purchased for Triton A2’s carrying Mercury Scout Drones. This upgrade costs +0pts and may be taken in place of the minions upgrade. This weapon can only be fired if the target is within line of sight of a Mercury Drone."
+                            },
+                            {
+                                "Name": "Valkyries",
+                                "A": "2",
+                                "Mv": "9\"",
+                                "CM": "E+1",
+                                "DP": "5",
+                                "Pts": 50,
+                                "Type": "Infantry",
+                                "Category": "Scout",
+                                "CQB": "2",
+                                "F": "3+",
+                                "S+C": "2 B2B",
+                                "T": "c1",
+                                "Special": "Dodge 5+",
+                                "Weapons": [
+                                    {
+                                        "Name": "RPX-9 Submachine Guns",
+                                        "E": "4",
+                                        "SH": "10",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "9\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "RW-2"
+                                    }
+                                ],
+                                "*": "* Special Rule - Jump-Jet Pack: This unit may move over terrain/buildings under 6 inches high. It does not count as an aircraft while doing so. Further, drop ships do not need to land when Valkyries embark/disembark. All other rules for embarking/disembarking apply as normal.",
+                                "**": "* Special Rule - Jump In, Jump Out: This unit may move its full distance when entering/abandoning structures. Each entry or exit counts as one embark/disembark movement. The rule may not be used in a turn where the unit interacts with its transport in any way."
                             }
                         ]
                     },
@@ -2811,7 +3095,7 @@
                                                 "R(C)": "∞",
                                                 "MF": "2\"",
                                                 "ARC": "F/S",
-                                                "Special": "CA-1"
+                                                "Special": "CA-1, Destroyer-6"
                                             },
                                             {
                                                 "Name": "RX-20 Minigun",
@@ -2825,6 +3109,105 @@
                                                 "Special": "CA-1"
                                             }
                                         ]
+                                    },
+                                    {
+
+                                        "Name": "Hades",
+                                        "A": "9",
+                                        "Mv": "4\"",
+                                        "CM": "A",
+                                        "DP": "8",
+                                        "Pts": 190,
+                                        "Type": "Walker",
+                                        "Category": "Heavy",
+                                        "S+C": "1",
+                                        "T": "a6",
+                                        "Special": "Rare",
+                                        "Weapons": [
+                                            {
+                                                "Name": "Super-Heavy Rail Repeater",
+                                                "E": "12",
+                                                "SH": "3",
+                                                "AC": "2+",
+                                                "R(F)": "∞",
+                                                "R(C)": "36\"",
+                                                "MF": "4\"",
+                                                "ARC": "F/S",
+                                                "Special": "Strafe, Articulated"
+                                            },
+                                            {
+                                                "Name": "RX-30 Minigun (L)",
+                                                "E": "6",
+                                                "SH": "3",
+                                                "AC": "2+",
+                                                "R(F)": "48\"",
+                                                "R(C)": "18\"",
+                                                "MF": "4\"",
+                                                "ARC": "F/S(L)",
+                                                "Special": "-"
+                                            },
+                                            {
+                                                "Name": "RX-30 Minigun (R)",
+                                                "E": "6",
+                                                "SH": "3",
+                                                "AC": "2+",
+                                                "R(F)": "48\"",
+                                                "R(C)": "18\"",
+                                                "MF": "4\"",
+                                                "ARC": "F/S(R)",
+                                                "Special": "-"
+                                            },
+                                            {
+                                                "Name": "Black Nanomachine Swarm*",
+                                                "E": "10",
+                                                "SH": "1",
+                                                "AC": "2+",
+                                                "R(F)": "18\"",
+                                                "R(C)": "18\"",
+                                                "MF": "4\"",
+                                                "ARC": "F/S/R",
+                                                "Special": "Alt-1, IF, Area-M"
+                                            },
+                                            {
+                                                "Name": "Repair Nanomachine Swarm**",
+                                                "E": "-",
+                                                "SH": "1",
+                                                "AC": "1+",
+                                                "R(F)": "18\"",
+                                                "R(C)": "18\"",
+                                                "MF": "4\"",
+                                                "ARC": "F/S/R",
+                                                "Special": "Alt-1, IF"
+                                            }
+                                        ],
+                                        "*": "* Black Nanomachines: This weapon cannot target or damage structures.",
+                                        "**": "** Repair Nanomachines: This ability counts as a weapon shot and follows all the normal rules for weapons (line of sight etc). It normally hits on a 1+ (i.e. automatically) and may only be fired against damaged friendly units. Its accuracy may be modified by such things as command cards and indirect fire in the usual way. A successful hit replaces 1 DP from the target unit. The Hades may target itself with this weapon."
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Thor Bombard",
+                                "A": "7",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 40,
+                                "Type": "Vehicle",
+                                "Category": "Heavy",
+                                "S+C": "2/4",
+                                "T": "a1",
+                                "Special": "-",
+                                "Weapons":[
+                                    {
+                                        "Name": "Mjolnir Artillery System",
+                                        "E": "11",
+                                        "Sh": "1",
+                                        "Ac": "3+",
+                                        "R(f)": "-",
+                                        "R(c)": "-",
+                                        "Mf": "0\"",
+                                        "Arc": "F/S/R",
+                                        "Special": "Barrage-2"
                                     }
                                 ]
                             }
@@ -2832,6 +3215,184 @@
                     },
                     {
                         "Support": [
+                            {
+                                "TypeName": "Apollo",
+                                "Name": "Ground Mode",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "PtsA": 40,
+                                "PtsB": 35,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "1-6",
+                                "T": "a1**",
+                                "Special": "Walker, Transition",
+                                "Name2": "Flight Mode",
+                                "A2": "5",
+                                "Mv2": "24\"**",
+                                "CM2": "A",
+                                "DP2": "2",
+                                "PtsA2": 40,
+                                "PtsB2": 35,
+                                "Type2": "Aircraft",
+                                "Category2": "Support",
+                                "S+C2": "1-6",
+                                "T2": "a1**",
+                                "Special2": "Transition, Short Hop*",
+                                "Weapons": [
+                                    {
+                                        "Name": "RX-1 L Railgun (A)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Mansylayer - Slug (B)",
+                                        "E": "7",
+                                        "SH": "3",
+                                        "AC": "2+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "Through Cover, Strafe, Alt-1"
+                                    },
+                                    {
+                                        "Name": "Mansylayer - Airbursting (B)",
+                                        "E": "7",
+                                        "SH": "3",
+                                        "AC": "6+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "Flame, Alt-1"
+                                    }
+                                ],
+                                "*": "* Short Hop: The Apollo’s jump jets can only be run intermittently and cannot be used in sustained flight. As such, and Apollo MUST end its move in Ground Mode and may not use Flight Mode on turn-1 of the game or in the same turn and Embarking or Disembarking.",
+                                "**": "** Air Drop: Apollo Strike Walkers routinely use their jump jets to affect a rapid deployment from their parent dropship. When Disembarking, their parent drop ship MAY use its full Mv value and does not have to land, however in doing so the Apollo forfeits its ability to drop and shoot. Note this does not count as using Flight Mode, since it is a Disembark placement."
+                            },
+                            {
+                                "Name": "Erebos",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "PtsA": 40,
+                                "PtsB": 35,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "2",
+                                "T": "a1",
+                                "Special": "Walker, EM*",
+                                "Weapons": [
+                                    {
+                                        "Name": "RX-1 L Railgun (A)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Mansylayer - Slug (B)",
+                                        "E": "7",
+                                        "SH": "3",
+                                        "AC": "2+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "Through Cover, Strafe, Alt-1"
+                                    },
+                                    {
+                                        "Name": "Mansylayer - Airbursting (B)",
+                                        "E": "7",
+                                        "SH": "3",
+                                        "AC": "6+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F/S",
+                                        "Special": "Flame, Alt-1"
+                                    }
+                                ],
+                                "*": "* EM Disruption Field Generator: This device severely disrupts the targeting devices and optics of enemy units in close proximity to the Erebos. All enemy weapons within 12” of the Erebos suffer a +1Ac modifier, a +2Ac modifier if within 6”, and a +3Ac modifier if within 3” (to a maximum of 6+). Measure this distance as you would measure weapon range. This effect is cumulative if multiple Eroboses are in range. In order for the Em Disruption Field Generator to take effect, the Erobos must NOT be Embarked on a Transport."
+                            },
+                            {
+                                "Name": "Aether",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 45,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "2",
+                                "T": "a1",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "Black Nanomachine Surge*",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "IF, Area-S"
+                                    }
+                                ],
+                                "*": "* Black Nanomachines: This weapon cannot target or damage structures."
+                            },
+                            {
+                                "Name": "Helios",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 60,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "2",
+                                "T": "a1",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "RXs-5 'Galaxy'",
+                                        "E": "6",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AA, SC, CA-1"
+                                    },
+                                    {
+                                        "Name": "RXs-5 'Galaxy'",
+                                        "E": "6",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AA, SC, CA-1"
+                                    }
+                                ]
+                            },
                             {
                                 "Name": "Taranis",
                                 "A": "7",
@@ -2885,6 +3446,48 @@
                     {
                         "Exotic": [
                             {
+                                "Name": "Medusa",
+                                "A": "1",
+                                "Mv": "9\"*",
+                                "CM": "E+3",
+                                "DP": "10",
+                                "Pts": 100,
+                                "Type": "Infantry",
+                                "Category": "Exotic",
+                                "CQB": "1",
+                                "F": "2+",
+                                "S+C": "1",
+                                "T": "m1",
+                                "Special": "Rare, DF, Dodge 3+, **",
+                                "Weapons": [
+                                    {
+                                        "Name": "Black Nanomachine Surge",
+                                        "E": "6",
+                                        "SH": "10",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1, Focus-2, Strafe, RW-1"
+                                    },
+                                    {
+                                        "Name": "White Nanomachines***",
+                                        "E": "-",
+                                        "SH": "1",
+                                        "AC": "1+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1, IF"
+                                    }
+                                ],
+                                "*": "* Levitated: This unit may move over terrain/buildings under 6” inches high. It does not count as an aircraft while doing so.",
+                                "**": "** Drone Command: Once per turn, when the Medusa is within 6” of a building and not embarked in a transport or structure, one friendly infantry squad in that building may gain an additional 5 dice to their CQB pool.",
+                                "***": "*** White Nanomachines: This ability counts as a weapon shot and follows all the normal rules for weapons (Line of sight etc). It normally hits on a 1+ (i.e. automatically) and may only be fired against damaged friendly units. Its accuracy may be modified by such things as command cards and indirect fire in the usual way. A successful hit replaces 1 lost Dp from the target Vehicle Unit."
+                            },
+                            {
                                 "Name": "Sirens",
                                 "A": "1",
                                 "Mv": "3\"",
@@ -2894,7 +3497,7 @@
                                 "Type": "Infantry",
                                 "Category": "Exotic",
                                 "CQB": "5",
-                                "F": "2",
+                                "F": "2+",
                                 "S+C": "2-3 B2B",
                                 "T": "c1",
                                 "Special": "Dodge 2+, Fast Roping 6\"",
@@ -2926,8 +3529,8 @@
                                 "Type": "Aircraft",
                                 "Category": "Transport",
                                 "S+C": "1",
-                                "LZ": "L",
                                 "T": "A6",
+                                "LZ": "L",
                                 "Special": "-",
                                 "Weapons": [
                                     {
@@ -2953,8 +3556,8 @@
                                 "Type": "Aircraft",
                                 "Category": "Transport",
                                 "S+C": "1",
-                                "LZ": "L",
                                 "T": "A2",
+                                "LZ": "L",
                                 "Special": "-",
                                 "Weapons": [
                                     {
@@ -2971,6 +3574,7 @@
                                 ]
                             },
                             {
+                                "TypeName": "",
                                 "Name": "Triton A1",
                                 "A": "6",
                                 "Mv": "20\"",
@@ -2980,8 +3584,8 @@
                                 "Type": "Aircraft",
                                 "Category": "Transport",
                                 "S+C": "1",
-                                "LZ": "S",
                                 "T": "C2",
+                                "LZ": "S",
                                 "Special": "-",
                                 "Name2": "Triton A2",
                                 "A2": "6",
@@ -2992,10 +3596,9 @@
                                 "Type2": "Aircraft",
                                 "Category2": "Transport",
                                 "S+C2": "1",
-                                "LZ2": "S",
                                 "T2": "B2",
+                                "LZ2": "S",
                                 "Special2": "-",
-                                "*": "* May tatke Stealth Missile Battery and/or Twin RX-20 Miniguns for +5pts each",
                                 "Weapons": [
                                     {
                                         "Name": "Stealth Missile Battery",
@@ -3004,7 +3607,7 @@
                                         "AC": "3+",
                                         "R(F)": "36\"",
                                         "R(C)": "12\"",
-                                        "MF": "12\"",
+                                        "MF": "9\"",
                                         "ARC": "F",
                                         "Special": "SC"
                                     },
@@ -3019,7 +3622,8 @@
                                         "ARC": "F",
                                         "Special": "-"
                                     }
-                                ]
+                                ],
+                                "*": "* May tatke Stealth Missile Battery and/or Twin RX-20 Miniguns for +5pts each."
                             },
                             {
                                 "Name": "Juno A1",
@@ -3070,6 +3674,158 @@
                                         "MF": "12\"",
                                         "ARC": "F",
                                         "Special": "-"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Angelos Jetskimmer",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 30,
+                                "Type": "Vehicle",
+                                "Category": "Transport",
+                                "S+C": "1",
+                                "T": "C1, a1",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "RX-1 20 Smoothbore",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "12\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Demolisher-2"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Triton X",
+                                "A": "6",
+                                "Mv": "20\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 40,
+                                "Type": "Aircraft",
+                                "Category": "Transport",
+                                "S+C": "1",
+                                "T": "M1",
+                                "LZ": "S",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Black Nanomachine Wave",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "IS, Alt-1"
+                                    },
+                                    {
+                                        "Name": "Repair Nanomachine Wave",
+                                        "E": "-",
+                                        "SH": "1",
+                                        "AC": "1+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "IS, Alt-1"
+                                    },
+                                    {
+                                        "Name": "Twin RX-20 Miniguns**",
+                                        "E": "4",
+                                        "SH": "4",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "12\"",
+                                        "ARC": "F",
+                                        "Special": "-"
+                                    }
+                                ],
+                                "*": "* Repair Nano Machine Wave: This ability counts as a weapon shot and follows all the normal rules for weapons. It normally hits on a 1+ (i.e. automatically) and may only be fired against the Medusa that it was brought as a transport for, additionally the Medusa must be damaged. Its accuracy may be modified by such things as command cards and indirect fire in the usual way. A successful hit replaces 1 lost Dp from the target Medusa UNIT; The Medusa’s Evasion Countermeasures are ignored when rolling to hit this weapon.",
+                                "**": "** Can be upgraded with Miniguns for +5pts."
+                            },
+                            {
+                                "Name": "Angelos A2 Jetskimmer",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A",
+                                "DP": "2",
+                                "Pts": 30,
+                                "Type": "Vehicle",
+                                "Category": "Transport",
+                                "S+C": "1",
+                                "T": "C1, a1",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "RX-666C Flamethrower",
+                                        "E": "4",
+                                        "SH": "6",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Flame"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Njord",
+                                "A": "6",
+                                "Mv": "16\"",
+                                "CM": "A",
+                                "DP": "6",
+                                "Pts": 110,
+                                "Type": "Aircraft",
+                                "Category": "Transport",
+                                "S+C": "1",
+                                "T": "A4",
+                                "LZ": "L",
+                                "Special": "Assault Transport*",
+                                "Weapons": [
+                                    {
+                                        "Name": "Heavy Stealth Missile Battery",
+                                        "E": "10",
+                                        "SH": "2",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "SC"
+                                    },
+                                    {
+                                        "Name": "Heavy Stealth Missile Battery",
+                                        "E": "10",
+                                        "SH": "2",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "9\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "SC"
+                                    },
+                                    {
+                                        "Name": "Stealth Missile Battery",
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "12\"",
+                                        "MF": "9\"",
+                                        "ARC": "F",
+                                        "Special": "SC"
                                     }
                                 ]
                             }
@@ -3139,13 +3895,12 @@
                                 "Mv": "4\"",
                                 "CM": "A, P4+",
                                 "DP": "4",
-                                "Pts": 100,
+                                "Pts": 95,
                                 "Type": "Vehicle",
                                 "Category": "Command*",
                                 "S+C": "1",
                                 "T": "a3",
                                 "Special": "Walker, Eject*",
-                                "*": "* If this unit is destroyed, roll a D6. On a 2+ place a token on the battlefield anywhere you can place a Small LZ template within 4D6\" of the destroyed Unit, no more than 6\" above ground level. If the token cannot be placed, it is destroyed. This token counts as a Command Module.",
                                 "Weapons": [
                                     {
                                         "Name": "Gauss Cannon",
@@ -3170,17 +3925,208 @@
                                         "Special": "-"
                                     }
                                 ],
-                                "Name2": "Command Module",
-                                "A2": "6",
-                                "Mv2": "0\"",
-                                "CM2": "A, P3+",
-                                "DP2": "1",
-                                "Pts2": 0,
-                                "Type2": "Vehicle",
-                                "Category2": "Command*",
-                                "S+C2": "1",
-                                "T2": "a1",
-                                "Special2": "-"
+                                "Name3": "Command Module",
+                                "A3": "6",
+                                "Mv3": "0\"",
+                                "CM3": "A, P3+",
+                                "DP3": "1",
+                                "Pts3": 0,
+                                "Type3": "Vehicle",
+                                "Category3": "Command*",
+                                "S+C3": "1",
+                                "T3": "a1",
+                                "Special3": "-",
+                                "*": "* If this unit is destroyed, roll a D6. On a 2+ place a token on the battlefield anywhere you can place a Small LZ template within 4D6\" of the destroyed Unit, no more than 6\" above ground level. If the token cannot be placed, it is destroyed. This token counts as a Command Module."
+                            },
+                            {
+                                "Name": "Puma",
+                                "A": "9",
+                                "Mv": "4\"",
+                                "CM": "A, P4+",
+                                "DP": "5",
+                                "Pts": 145,
+                                "Type": "Vehicle",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "T": "a3",
+                                "Special": "Walker, Headdress*",
+                                "Weapons": [
+                                    {
+                                        "Name": "Gauss Cannon",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Gauss Cannon",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "24\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Sonic Cannon",
+                                        "E": "8",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "36\"",
+                                        "R(C)": "24\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S",
+                                        "Special": "Demolisher-D3+2"
+                                    }
+                                ],
+                                "*": "* Headdress: Headdresses are worn by battle proven High Warchiefs to signify their great victories over many battles. High Warchiefs believe themselves to be unbeatable on the battlefield and therefore have replaced their escape module with a Sonic Cannon, and Headdress upgrade which increases its DP value by 1. In addition they gain clairvoyance allowing the controlling player during the Draw Cards step of the Initiation Phase to reveal the top two cards and either decide to keep them, or discard any number of them (this only applies to the first draw of the phase, any additional cards drawn will be done so normally)."
+                            },
+                            {
+                                "Name": "Gharial",
+                                "A": "7",
+                                "Mv": "6\"",
+                                "CM": "A, P4+",
+                                "DP": "4",
+                                "Pts": 110,
+                                "Type": "Vehicle",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "T": "a3",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "Heavy Microwave Cannon",
+                                        "E": "12",
+                                        "SH": "2",
+                                        "AC": "2+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Heavy Microwave Cannon",
+                                        "E": "5",
+                                        "SH": "6",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "Alt-1, Flame"
+                                    },
+                                    {
+                                        "Name": "Neutron Launcher (L)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "L-1, Demolisher-3"
+                                    },
+                                    {
+                                        "Name": "Neutron Launcher (R)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "L-1, Demolisher-3"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Frostdrake",
+                                "A": "5",
+                                "Mv": "20\"",
+                                "CM": "A, P5+, E+1",
+                                "DP": "6",
+                                "Pts": 175,
+                                "Type": "Aircraft",
+                                "Category": "Command",
+                                "S+C": "1",
+                                "LZ": "L",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Disruption Cannon (Far)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "48\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1, Area-S"
+                                    },
+                                    {
+                                        "Name": "Disruption Cannon (Normal)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "24\"",
+                                        "R(C)": "24\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1, Area-M"
+                                    },
+                                    {
+                                        "Name": "Disruption Cannon (Short)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1, Area-L"
+                                    },
+                                    {
+                                        "Name": "Dragon Cannon (Wide Beam)",
+                                        "E": "4",
+                                        "SH": "12",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-2, Through Cover"
+                                    },
+                                    {
+                                        "Name": "Dragon Cannon (Concentrated Beam)",
+                                        "E": "9",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-2"
+                                    },
+                                    {
+                                        "Name": "Foe Crusher Cannon",
+                                        "E": "*",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Gravity Cannon*"
+                                    }
+                                ],
+                                "*": "* Gravity Cannon - Refer to gravity cannon table for damage."
                             }
                         ]
                     },
@@ -3213,35 +4159,78 @@
                                 ]
                             },
                             {
-                                "Name": "Kukri",
-                                "A": "7",
-                                "Mv": "9\"",
+                                "Name": "Tarantula",
+                                "A": "8",
+                                "Mv": "6\"",
                                 "CM": "A, P5+",
-                                "DP": "1",
-                                "Pts": 40,
+                                "DP": "2",
+                                "Pts": 50,
                                 "Type": "Vehicle",
                                 "Category": "Standard",
-                                "S+C": "3-9",
-                                "T": "a1",
-                                "Special": "Skimmer",
+                                "S+C": "2-6",
+                                "T": "a1.5",
+                                "Special": "Walker, Climber*",
                                 "Weapons": [
                                     {
-                                        "Name": "Twin Ion Cannons",
-                                        "E": "6",
-                                        "SH": "4",
-                                        "AC": "3+",
+                                        "Name": "Gravity Cannon",
+                                        "E": "**",
+                                        "SH": "1",
+                                        "AC": "2+",
                                         "R(F)": "18\"",
                                         "R(C)": "18\"",
-                                        "MF": "4\"",
-                                        "ARC": "F/S/R",
-                                        "Special": "AA"
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "CA-1"
+                                    },
+                                    {
+                                        "Name": "Laser Pod",
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "CA-1"
                                     }
-                                ]
+                                ],
+                                "*": "* Climber: Instead of making a normal move, this unit may climb/descend to/from the roof of a structure less than 7” high if it is within 2” of any wall. To do so, place the unit on the roof/ground and within 4” of its starting point (measured along ground level). This counts as a 6” move.",
+                                "**": "** Gravity Cannon: This weapon has no energy value - when rolling to damage use the Grav Cannon Chart on the right. Shots against Skimmers gain a -1 modifier to this roll."
                             }
                         ]
                     },
                     {
                         "Troops": [
+                            {
+                                "Name": "Pungari Auxilleries",
+                                "A": "1",
+                                "Mv": "2\"",
+                                "CM": "-",
+                                "DP": "5",
+                                "Pts": 20,
+                                "Type": "Infantry",
+                                "Category": "Troops",
+                                "CQB": "0.5",
+                                "F": "6+*",
+                                "S+C": "4 B2B",
+                                "T": "b0.5",
+                                "Special": "Horde**",
+                                "Weapons": [
+                                    {
+                                        "Name": "Discus Launcher",
+                                        "E": "3",
+                                        "SH": "10",
+                                        "AC": "5+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "6\"",
+                                        "MF": "2\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AB, AS-7, RW-2"
+                                    }
+                                ],
+                                "*": "* Subservient:  While in the same building or within 3” of another, Non-Subservient Shaltari Infantry unit, this unit has it’s fortitude changed to 3+.",
+                                "**": "** Horde: While this squad has at least 3 units remaining, it may roll an additional die when searching for objectives and receives a +1 modifier when searching for intel. Once this squad is reduce to 2 units or less, this bonus is lost."
+                            },
                             {
                                 "Name": "Braves",
                                 "A": "4",
@@ -3256,7 +4245,6 @@
                                 "S+C": "2 B2B",
                                 "T": "b1",
                                 "Special": "Warsuit*",
-                                "*": "* Warsuit: This unit's Active Countermeasures only take effect against weapons of E6 or less. In addition, hit from Collatoral Damage will always damage this unit on a 5+.",
                                 "Weapons": [
                                     {
                                         "Name": "Discus Launchers",
@@ -3280,42 +4268,51 @@
                                         "ARC": "F/S/R",
                                         "Special": "SC"
                                     }
-                                ]
-                            },
-                            {
-                                "Name": "Firstborn",
-                                "A": "4",
-                                "Mv": "3\"",
-                                "CM": "A*",
-                                "DP": "3",
-                                "Pts": 48,
-                                "Type": "Infantry",
-                                "Category": "Troops",
-                                "CQB": "4",
-                                "F": "3+",
-                                "S+C": "2 B2B",
-                                "T": "b1",
-                                "Special": "Warsuit*, Dodge 4+, Incapacitate**",
-                                "*": "* Warsuit: This unit's Active Countermeasures only take effect against weapons of E6 or less. In addition, hit from Collatoral Damage will always damage this unit on a 5+.",
-                                "**": "** Incapacitate: Firstborns may use their Wave Pistols to render opponents helpless during CQB's. You may discard 2 dice contributed by Firstborns in Step-1 of a CQB Fight Sequence in order to negate 1 dice of an enemy base in that fight sequence. This may be done up to 3 times per Firstborn base.",
-                                "Weapons": [
-                                    {
-                                        "Name": "Energy Swords",
-                                        "E": "6",
-                                        "SH": "3",
-                                        "AC": "2+",
-                                        "R(F)": "CC",
-                                        "R(C)": "CC",
-                                        "MF": "3\"",
-                                        "ARC": "F/S/R",
-                                        "Special": "RW-1"
-                                    }
-                                ]
+                                ],
+                                "*": "* Warsuit: This unit's Active Countermeasures only take effect against weapons of E6 or less. In addition, hit from Collatoral Damage will always damage this unit on a 5+."
                             }
                         ]
                     },
                     {
                         "Scout": [
+                            {
+                                "Name": "Samurai",
+                                "A": "5",
+                                "Mv": "4\"",
+                                "CM": "A*, P6+",
+                                "DP": "1",
+                                "Pts": 20,
+                                "Type": "Vehicle",
+                                "Category": "Scout",
+                                "S+C": "3-6",
+                                "T": "a0.5, b0.5",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Bio-Atomiser",
+                                        "E": "5",
+                                        "SH": "2",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Flame"
+                                    },
+                                    {
+                                        "Name": "Energy Blade",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "-"
+                                    }
+                                ],
+                                "*": "* Heavy Warsuit: These Active Countermeasures only take effect against weapons of E6 or less."
+                            },
                             {
                                 "Name": "Yari A",
                                 "A": "5",
@@ -3338,10 +4335,10 @@
                                         "R(C)": "12\"",
                                         "MF": "6\"",
                                         "ARC": "F/S",
-                                        "Special": "Through Cover*",
-                                        "*": "* This weapon ignores Soft Cover."
+                                        "Special": "Through Cover*"
                                     }
-                                ]
+                                ],
+                                "*": "* This weapon ignores Soft Cover."
                             },
                             {
                                 "Name": "Yari B",
@@ -3374,15 +4371,187 @@
                     {
                         "Heavy": [
                             {
+                                "Name": "Caiman",
+                                "A": "7",
+                                "Mv": "6\"",
+                                "CM": "A, P5+",
+                                "DP": "4",
+                                "Pts": 100,
+                                "Type": "Vehicle",
+                                "Category": "Heavy",
+                                "S+C": "1-3 Wide",
+                                "T": "a3",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "Gauss Triad",
+                                        "E": "10",
+                                        "SH": "3",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "36\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Laser Pod",
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "6\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "-"
+                                    },
+                                    {
+                                        "Name": "Laser Pod",
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "6\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "-"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Leopard",
+                                "A": "9",
+                                "Mv": "4\"",
+                                "CM": "A, P5+",
+                                "DP": "4",
+                                "Pts": 85,
+                                "Type": "Vehicle",
+                                "Category": "Heavy",
+                                "S+C": "1-3",
+                                "T": "a3",
+                                "Special": "Walker",
+                                "Weapons": [
+                                    {
+                                        "Name": "Dragon Cannon",
+                                        "E": "4",
+                                        "SH": "12",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "Alt-1, Through Cover"
+                                    },
+                                    {
+                                        "Name": "Dragon Cannon",
+                                        "E": "4",
+                                        "SH": "12",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "Alt-2, Through Cover"
+                                    },
+                                    {
+                                        "Name": "Concentrated Beam",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1&2"
+                                    },
+                                    {
+                                        "Name": "Thermal Lance",
+                                        "E": "12",
+                                        "SH": "2",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "-"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Panther",
+                                "A": "9",
+                                "Mv": "4\"",
+                                "CM": "A, P5+",
+                                "DP": "4",
+                                "Pts": 125,
+                                "Type": "Vehicle",
+                                "Category": "Heavy",
+                                "S+C": "1-2",
+                                "T": "a3",
+                                "Special": "Walker",
+                                "Weapons": [
+                                    {
+                                        "Name": "Particle Triad",
+                                        "E": "8",
+                                        "SH": "3",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "2\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AA, *"
+                                    }
+                                ],
+                                "*": "* Slow To Traverse: When this weapon reaction fires, it suffers a +4 modifier to its accuracy modifier rather than the normal 2+."
+                            },
+                            {
+                                "Name": "Crocodile",
+                                "A": "7",
+                                "Mv": "6\"",
+                                "CM": "A, P5+",
+                                "DP": "4",
+                                "Pts": 115,
+                                "Type": "Vehicle",
+                                "Category": "Heavy",
+                                "S+C": "1-2",
+                                "T": "a3",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "Partical Cannon (Low Power)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "6\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1, Demolisher-2, Awesome Power*"
+                                    },
+                                    {
+                                        "Name": "Partical Cannon (High Power)",
+                                        "E": "13",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1, Demolisher-D3+2, Awesome Power*"
+                                    }
+                                ],
+                                "*": "* Awesome Power: This weapon ignores ALL countermeasures including passive and evasion."
+                            },
+                            {
                                 "Name": "Jaguar",
                                 "A": "9",
                                 "Mv": "4\"",
-                                "CM": "A, P4+",
+                                "CM": "A, P5+",
                                 "DP": "4",
                                 "Pts": 110,
                                 "Type": "Vehicle",
                                 "Category": "Heavy",
-                                "S+C": "1-2",
+                                "S+C": "1-3",
                                 "T": "a3",
                                 "Special": "Walker",
                                 "Weapons": [
@@ -3425,12 +4594,12 @@
                                 "Name": "Ocelot",
                                 "A": "9",
                                 "Mv": "4\"",
-                                "CM": "A, P4+",
+                                "CM": "A, P5+",
                                 "DP": "4",
                                 "Pts": 95,
                                 "Type": "Vehicle",
                                 "Category": "Heavy",
-                                "S+C": "1-2",
+                                "S+C": "1-3",
                                 "T": "a3",
                                 "Special": "Walker",
                                 "Weapons": [
@@ -3443,25 +4612,286 @@
                                         "R(C)": "∞",
                                         "MF": "2\"",
                                         "ARC": "F/S/R",
-                                        "Special": "Demolisher-D3+2, Awesome Firepower*",
-                                        "*": "* This weapon ignores ALL countermeasures, including Passive ones!"
+                                        "Special": "Demolisher-D3+2, Awesome Firepower*"
                                     }
-                                ]
+                                ],
+                                "*": "* This weapon ignores ALL countermeasures, including Passive ones!"
                             }
                         ]
                     },
                     {
                         "Support": [
                             {
+                                "Name": "Dreamsnare",
+                                "A": "9",
+                                "Mv": "4\"",
+                                "CM": "A, P5+",
+                                "DP": "4",
+                                "Pts": 85,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "1",
+                                "T": "a3",
+                                "Special": "Walker, Shield Boost*",
+                                "Weapons": [
+                                    {
+                                        "Name": "Dragon Cannon",
+                                        "E": "4",
+                                        "SH": "12",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(L)",
+                                        "Special": "Alt-1, Through Cover"
+                                    },
+                                    {
+                                        "Name": "Dragon Cannon",
+                                        "E": "4",
+                                        "SH": "12",
+                                        "AC": "2+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S(R)",
+                                        "Special": "Alt-2, Through Cover"
+                                    },
+                                    {
+                                        "Name": "Concentrated Beam",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "4\"",
+                                        "MF": "4\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1&2"
+                                    }
+                                ],
+                                "*": "* Shield Boosting Relay: This device improves the effectiveness of Shaltari energy shields. All friendly Shaltari units within 6” of the Dreamsnare (including itself) gain a -1 modifier to their Passive Countermeasures value (but only if they have one). Measure this distance as you would measure weapon range. This effect is NOT cumulative if multiple Dreamsnares are in range."
+                            },
+                            {
+                                "Name": "Kukri",
+                                "A": "7",
+                                "Mv": "9\"",
+                                "CM": "A, P5+",
+                                "DP": "1",
+                                "Pts": 40,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "3 Wide",
+                                "T": "a1",
+                                "Special": "Skimmer",
+                                "Weapons": [
+                                    {
+                                        "Name": "Twin Ion Cannons",
+                                        "E": "6",
+                                        "SH": "4",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AA"
+                                    }
+                                ]
+                            },
+                            {
+                                "Name": "Firedrake",
+                                "A": "5",
+                                "Mv": "20\"",
+                                "CM": "A, P5+",
+                                "DP": "5",
+                                "Pts": 135,
+                                "Type": "Aircraft",
+                                "Category": "Support",
+                                "S+C": "1",
+                                "LZ": "L",
+                                "T": "A3",
+                                "Special": "Auxiliary Gate*",
+                                "Weapons": [
+                                    {
+                                        "Name": "Disruption Cannon (Far)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "48\"",
+                                        "R(C)": "48\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1, Area-S"
+                                    },
+                                    {
+                                        "Name": "Disruption Cannon (Normal)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "24\"",
+                                        "R(C)": "24\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1, Area-M"
+                                    },
+                                    {
+                                        "Name": "Disruption Cannon (Short)",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "10\"",
+                                        "ARC": "F",
+                                        "Special": "Alt-1, Area-L"
+                                    },
+                                    {
+                                        "Name": "Dragon Cannon",
+                                        "E": "4",
+                                        "SH": "12",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-2, Through Cover"
+                                    },
+                                    {
+                                        "Name": "Concentrated Beam",
+                                        "E": "9",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "9\"",
+                                        "R(C)": "9\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-2"
+                                    }
+                                ],
+                                "*": "* Auxiliary Gate: The Firedrake incorporates its own integrated teleport Gate system. At the beginning of each turn, nominate whether the Firedrake will be activating in ‘Normal’ or ‘Gate’ mode. If in ‘Normal’ mode, the Firedrake functions as normal this turn. If in ‘Gate’ mode, the Firedrake functions exactly like other Gates in respects and may not shoot that turn. Since it’s an auxiliary system, the Firedrake ignores the Charged Atmosphere and Prudent Pilots’ rule."
+                            },
+                            {
+                                "Name": "Totem Warspire",
+                                "A": "8",
+                                "Mv": "0\"",
+                                "CM": "A, P5+",
+                                "DP": "4",
+                                "Pts": 50,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "1",
+                                "T": "a3",
+                                "Special": "Lightning Reflexes",
+                                "Weapons": [
+                                    {
+                                        "Name": "Energy Beam",
+                                        "E": "12",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "12\"",
+                                        "R(C)": "12\"",
+                                        "MF": "0\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1"
+                                    },
+                                    {
+                                        "Name": "Energy Shield",
+                                        "E": "-",
+                                        "SH": "1",
+                                        "AC": "-",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "0\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Alt-1, Shield*"
+                                    },
+                                    {
+                                        "Name": "Energized Atmosphere",
+                                        "E": "6",
+                                        "SH": "3",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "0\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "AA"
+                                    }
+                                ],
+                                "*": "* Structure Shield: This ability counts as a weapon shot and follows all normal rules for weapons (Line of Sight etc). It hits automatically. A hit grants a Structure, Forest, or Barricade a 5+ Passive Countermeasures save until the Totem is next activated or Dematerialized. This effect is removed instantly if the Totem is destroyed."
+                            },
+                            {
+                                "Name": "Birdeater Battle Strider",
+                                "A": "8",
+                                "Mv": "6\"",
+                                "CM": "A, P5+",
+                                "DP": "2",
+                                "Pts": 45,
+                                "Type": "Vehicle",
+                                "Category": "Support",
+                                "S+C": "2",
+                                "T": "a1.5",
+                                "Special": "Walker, Climber*",
+                                "Weapons": [
+                                    {
+                                        "Name": "Twin Ion Cannons",
+                                        "E": "6",
+                                        "SH": "4",
+                                        "AC": "3+",
+                                        "R(F)": "18\"",
+                                        "R(C)": "18\"",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "CA-1, AA"
+                                    },
+                                    {
+                                        "Name": "Laser Pod",
+                                        "E": "7",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "∞",
+                                        "MF": "6\"",
+                                        "ARC": "F/S",
+                                        "Special": "CA-1"
+                                    }
+                                ],
+                                "*": "* Climber: Instead of making a normal move, this unit may climb/descend to/from the roof of a structure less than 7” high if it is within 2” of any wall. To do so, place the unit on the roof/ground and within 4” of its starting point (measured along ground level). This counts as a 6” move."
+                            },
+                            {
+                                "Name": "Firebird",
+                                "A": "5",
+                                "Mv": "20\"",
+                                "CM": "A, P5+, E+2",
+                                "DP": "1",
+                                "Pts": 40,
+                                "Type": "Aircraft",
+                                "Category": "Support",
+                                "S+C": "1-2 Wide",
+                                "LZ": "S",
+                                "T": "-",
+                                "Special": "-",
+                                "Weapons": [
+                                    {
+                                        "Name": "Twin Disintegrators",
+                                        "E": "10",
+                                        "SH": "1",
+                                        "AC": "3+",
+                                        "R(F)": "6\"",
+                                        "R(C)": "6\"",
+                                        "MF": "10\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "Devastator-2"
+                                    }
+                                ]
+                            },
+                            {
                                 "Name": "Thunderbird",
                                 "A": "5",
                                 "Mv": "20\"",
-                                "CM": "A, P5+ e+2",
+                                "CM": "A, P5+, E+2",
                                 "DP": "1",
                                 "Pts": 38,
                                 "Type": "Aircraft",
                                 "Category": "Support",
-                                "S+C": "1-4",
+                                "S+C": "1-4 Wide",
                                 "LZ": "S",
                                 "T": "-",
                                 "Special": "-",
@@ -3482,7 +4912,65 @@
                         ]
                     },
                     {
-                        "Exotic": []
+                        "Exotic": [
+                            {
+                                "Name": "Ronin",
+                                "A": "5",
+                                "Mv": "4\"",
+                                "CM": "A*, P6+",
+                                "DP": "1",
+                                "Pts": 15,
+                                "Type": "Vehicle",
+                                "Category": "Exotic",
+                                "S+C": "3-6",
+                                "T": "a0.5, b0.5",
+                                "Special": "Lightning Reflexes",
+                                "Weapons": [
+                                    {
+                                        "Name": "Gauss Carbine",
+                                        "E": "9",
+                                        "SH": "1",
+                                        "AC": "2+",
+                                        "R(F)": "∞",
+                                        "R(C)": "12\"",
+                                        "MF": "4\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "SC"
+                                    }
+                                ],
+                                "*": "* Heavy Warsuit: These Active Countermeasures only take effect against weapons of E6 or less."
+                            },
+                            {
+                                "Name": "Firstborn",
+                                "A": "4",
+                                "Mv": "3\"",
+                                "CM": "A*",
+                                "DP": "3",
+                                "Pts": 48,
+                                "Type": "Infantry",
+                                "Category": "Exotic",
+                                "CQB": "4",
+                                "F": "3+",
+                                "S+C": "2 B2B",
+                                "T": "b1",
+                                "Special": "Warsuit*, Dodge 4+, Incapacitate**",
+                                "Weapons": [
+                                    {
+                                        "Name": "Energy Sword",
+                                        "E": "6",
+                                        "SH": "3",
+                                        "AC": "2+",
+                                        "R(F)": "CC",
+                                        "R(C)": "CC",
+                                        "MF": "3\"",
+                                        "ARC": "F/S/R",
+                                        "Special": "RW-1"
+                                    }
+                                ],
+                                "*": "* Warsuit: This unit’s Active Countermeasures only take effects against weapons of E6 or less. In addition, hit from Collateral Damage will always damage this unit on a 5+.",
+                                "**": "** Incapacitate: Firstborns may use their Wave Pistols to render opponents helpless during CQB’s. You may discard 2 dice contributed by Firstborns in Step-1 of a CQB fight sequence in order to negate 1 dice of an enemy base in that fight sequence. This may be done up to 3 times per Firstborn base."
+                            }
+                        ]
                     },
                     {
                         "Gate": [
@@ -3509,10 +4997,10 @@
                                         "R(C)": "4\"",
                                         "MF": "10\"",
                                         "ARC": "F/S/R",
-                                        "Special": "AA, Side Effect*",
-                                        "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
+                                        "Special": "AA, Side Effect*"
                                     }
-                                ]
+                                ],
+                                "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
                             },
                             {
                                 "Name": "Gaia",
@@ -3537,17 +5025,17 @@
                                         "R(C)": "4\"",
                                         "MF": "10\"",
                                         "ARC": "F/S/R",
-                                        "Special": "AA, Side Effect*",
-                                        "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
+                                        "Special": "AA, Side Effect*"
                                     }
-                                ]
+                                ],
+                                "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
                             },
                             {
                                 "Name": "Spirit",
                                 "A": "4",
-                                "Mv": "20\"",
+                                "Mv": "30\"",
                                 "CM": "A, P5+",
-                                "DP": "5",
+                                "DP": "1",
                                 "Pts": 40,
                                 "Type": "Aircraft",
                                 "Category": "Gate",
@@ -3565,10 +5053,10 @@
                                         "R(C)": "4\"",
                                         "MF": "10\"",
                                         "ARC": "F/S/R",
-                                        "Special": "AA, Side Effect*",
-                                        "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
+                                        "Special": "AA, Side Effect*"
                                     }
-                                ]
+                                ],
+                                "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
                             },
                             {
                                 "Name": "Haven",
