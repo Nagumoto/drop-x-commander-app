@@ -9,7 +9,7 @@ class Home extends Component {
                 <nav>
                     <SiteNav />
                 </nav>
-                Some stuff
+                An introduction
             </div>
         )
     }

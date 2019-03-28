@@ -1,46 +1,62 @@
 import React, { Component } from 'react'
 import SiteNav from './SiteNav';
+import BattleGroups from './BattleGroups';
 
 class UCM extends Component {
 
-    state = {
-        gameSize: 500,
-        commanders: 1,
-        commanderLVL: 1,
-        commanderAssignment: ''
+    changedBattlegroups = (e) => {
+        this.props.bgsHandler(e)
     }
 
     changedGameSize = (e) => {
-        console.log('Game size set to', e.target.value)
-        let gameSize = Object.assign({}, this.state.gameSize)
-        gameSize = e.target.value
-        this.setState({ gameSize })
+        this.props.gameSizeHandler(e)
+        this.props.gameSizeCategory()
     }
 
     changedCommanders = (e) => {
-        console.log('Number of commanders set to', e.target.value)
-        let commanders = Object.assign({}, this.state.commanders)
-        commanders = e.target.value
-        this.setState({ commanders })
+        this.props.comsHandler(e)
     }
 
     changedCommanderLVL = (e) => {
-        console.log('Commander LVL set to', e.target.value)
-        let commanderLVL = Object.assign({}, this.state.commanderLVL)
-        commanderLVL = e.target.value
-        this.setState({ commanderLVL })
+        this.props.comLVLHandler(e)
     }
 
     changedCommanderAssignment = (e) => {
-        console.log(e.target.value, 'set as Commander')
-        let commanderAssignment = Object.assign({}, this.state.commanderAssignment)
-        commanderAssignment = e.target.value
-        this.setState({ commanderAssignment })
+        this.props.comAssignHandler(e)
+    }
+
+    changedHQ = (e) => {
+        this.props.hqBGHandler(e)
+    }
+
+    changedArmour = (e) => {
+        this.props.armourBGHandler(e)
+    }
+
+    changedInfantry = (e) => {
+        this.props.infantryBGHandler(e)
+    }
+
+    changedSpecial = (e) => {
+        this.props.specialBGHandler(e)
     }
 
     consoleLogJSON = (e) => {
         e.preventDefault()
-        console.log(this.props.data)
+        console.log(this.props.state)
+    }
+
+    renderCommanderAssignment = () => {
+        if (this.props.state.commanders !== 0) {
+            return (
+                <span>Assign Commander(s):
+                    <select onChange={this.changedCommanderAssignment} value={this.props.state.commanderAssignment}>
+                        <option>Kodiak</option>
+                        <option>Phoenix</option>
+                    </select>
+                </span>
+            )
+        }
     }
 
     render = () => {
@@ -52,11 +68,13 @@ class UCM extends Component {
                 <div id='main'>
                     UCM Starter Army
                     <form>
-                        Game Size (Pts):<input onChange={this.changedGameSize} value={this.state.gameSize}/>
-                        Commanders: <input onChange={this.changedCommanders} value={this.state.commanders}/>
-                        Commander LVL: <input onChange={this.changedCommanderLVL} value={this.state.commanderLVL} />
-                        Assign Commander(s): <input onChange={this.changedCommanderAssignment} value={this.state.commanderAssignment} />
-                        <button onClick={this.consoleLogJSON}>Console Log JSON</button>
+                        Game Size {this.props.gameSizeCategory()} (Pts):<input onChange={this.changedGameSize} value={this.props.state.gameSizePts} />
+                        Commanders: <input onChange={this.changedCommanders} value={this.props.state.commanders} />
+                        Commander LVL: <input onChange={this.changedCommanderLVL} value={this.props.state.commanderLVL} />
+                        {this.renderCommanderAssignment()}
+                        <BattleGroups state={this.props.state} specialBGHandler={this.changedSpecial} infantryBGHandler={this.changedInfantry} armourBGHandler={this.changedArmour} hqBGHandler={this.changedHQ} changeHandler={this.changedBattlegroups} gameSize={this.props.gameSizeCategory} bgs={this.props.state.bgs} />
+                        <button onClick={this.consoleLogJSON}>Console Log</button>
+
                     </form>
                 </div>
             </div>
