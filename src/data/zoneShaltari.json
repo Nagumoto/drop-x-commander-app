@@ -1,0 +1,1224 @@
+{
+    "Command": [
+        {
+            "Name": "Coyote",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P4+",
+            "DP": "4",
+            "Pts": 95,
+            "Type": "Vehicle",
+            "Category": "Command*",
+            "S+C": "1",
+            "T": "a3",
+            "Special": "Walker, Eject*",
+            "Weapons": [
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                }
+            ],
+            "Name3": "Command Module",
+            "A3": "6",
+            "Mv3": "0\"",
+            "CM3": "A, P3+",
+            "DP3": "1",
+            "Pts3": 0,
+            "Type3": "Vehicle",
+            "Category3": "Command*",
+            "S+C3": "1",
+            "T3": "a1",
+            "Special3": "-",
+            "*": "* If this unit is destroyed, roll a D6. On a 2+ place a token on the battlefield anywhere you can place a Small LZ template within 4D6\" of the destroyed Unit, no more than 6\" above ground level. If the token cannot be placed, it is destroyed. This token counts as a Command Module."
+        },
+        {
+            "Name": "Puma",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P4+",
+            "DP": "5",
+            "Pts": 145,
+            "Type": "Vehicle",
+            "Category": "Command",
+            "S+C": "1",
+            "T": "a3",
+            "Special": "Walker, Headdress*",
+            "Weapons": [
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Sonic Cannon",
+                    "E": "8",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S",
+                    "Special": "Demolisher-D3+2"
+                }
+            ],
+            "*": "* Headdress: Headdresses are worn by battle proven High Warchiefs to signify their great victories over many battles. High Warchiefs believe themselves to be unbeatable on the battlefield and therefore have replaced their escape module with a Sonic Cannon, and Headdress upgrade which increases its DP value by 1. In addition they gain clairvoyance allowing the controlling player during the Draw Cards step of the Initiation Phase to reveal the top two cards and either decide to keep them, or discard any number of them (this only applies to the first draw of the phase, any additional cards drawn will be done so normally)."
+        },
+        {
+            "Name": "Gharial",
+            "A": "7",
+            "Mv": "6\"",
+            "CM": "A, P4+",
+            "DP": "4",
+            "Pts": 110,
+            "Type": "Vehicle",
+            "Category": "Command",
+            "S+C": "1",
+            "T": "a3",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Heavy Microwave Cannon",
+                    "E": "12",
+                    "SH": "2",
+                    "AC": "2+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "Alt-1"
+                },
+                {
+                    "Name": "Heavy Microwave Cannon",
+                    "E": "5",
+                    "SH": "6",
+                    "AC": "3+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "Alt-1, Flame"
+                },
+                {
+                    "Name": "Neutron Launcher (L)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "6\"",
+                    "ARC": "F/S(L)",
+                    "Special": "L-1, Demolisher-3"
+                },
+                {
+                    "Name": "Neutron Launcher (R)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "6\"",
+                    "ARC": "F/S(R)",
+                    "Special": "L-1, Demolisher-3"
+                }
+            ]
+        },
+        {
+            "Name": "Frostdrake",
+            "A": "5",
+            "Mv": "20\"",
+            "CM": "A, P5+, E+1",
+            "DP": "6",
+            "Pts": 175,
+            "Type": "Aircraft",
+            "Category": "Command",
+            "S+C": "1",
+            "LZ": "L",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Disruption Cannon (Far)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "48\"",
+                    "R(C)": "48\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, Area-S"
+                },
+                {
+                    "Name": "Disruption Cannon (Normal)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "24\"",
+                    "R(C)": "24\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, Area-M"
+                },
+                {
+                    "Name": "Disruption Cannon (Short)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, Area-L"
+                },
+                {
+                    "Name": "Dragon Cannon (Wide Beam)",
+                    "E": "4",
+                    "SH": "12",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-2, Through Cover"
+                },
+                {
+                    "Name": "Dragon Cannon (Concentrated Beam)",
+                    "E": "9",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "9\"",
+                    "R(C)": "9\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-2"
+                },
+                {
+                    "Name": "Foe Crusher Cannon",
+                    "E": "*",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Gravity Cannon*"
+                }
+            ],
+            "*": "* Gravity Cannon - Refer to gravity cannon table for damage."
+        }
+    ],
+    "Standard": [
+        {
+            "Name": "Tomahawk",
+            "A": "7",
+            "Mv": "9\"",
+            "CM": "A, P5+",
+            "DP": "1",
+            "Pts": 35,
+            "Type": "Vehicle",
+            "Category": "Standard",
+            "S+C": "3-9",
+            "T": "a1",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "6\"",
+                    "ARC": "F/S/R",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "Tarantula",
+            "A": "8",
+            "Mv": "6\"",
+            "CM": "A, P5+",
+            "DP": "2",
+            "Pts": 50,
+            "Type": "Vehicle",
+            "Category": "Standard",
+            "S+C": "2-6",
+            "T": "a1.5",
+            "Special": "Walker, Climber*",
+            "Weapons": [
+                {
+                    "Name": "Gravity Cannon",
+                    "E": "**",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "CA-1"
+                },
+                {
+                    "Name": "Laser Pod",
+                    "E": "7",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "CA-1"
+                }
+            ],
+            "*": "* Climber: Instead of making a normal move, this unit may climb/descend to/from the roof of a structure less than 7” high if it is within 2” of any wall. To do so, place the unit on the roof/ground and within 4” of its starting point (measured along ground level). This counts as a 6” move.",
+            "**": "** Gravity Cannon: This weapon has no energy value - when rolling to damage use the Grav Cannon Chart on the right. Shots against Skimmers gain a -1 modifier to this roll."
+        }
+    ],
+    "Troops": [
+        {
+            "Name": "Pungari Auxilleries",
+            "A": "1",
+            "Mv": "2\"",
+            "CM": "-",
+            "DP": "5",
+            "Pts": 20,
+            "Type": "Infantry",
+            "Category": "Troops",
+            "CQB": "0.5",
+            "F": "6+*",
+            "S+C": "4 B2B",
+            "T": "b0.5",
+            "Special": "Horde**",
+            "Weapons": [
+                {
+                    "Name": "Discus Launcher",
+                    "E": "3",
+                    "SH": "10",
+                    "AC": "5+",
+                    "R(F)": "18\"",
+                    "R(C)": "6\"",
+                    "MF": "2\"",
+                    "ARC": "F/S/R",
+                    "Special": "AB, AS-7, RW-2"
+                }
+            ],
+            "*": "* Subservient:  While in the same building or within 3” of another, Non-Subservient Shaltari Infantry unit, this unit has it’s fortitude changed to 3+.",
+            "**": "** Horde: While this squad has at least 3 units remaining, it may roll an additional die when searching for objectives and receives a +1 modifier when searching for intel. Once this squad is reduce to 2 units or less, this bonus is lost."
+        },
+        {
+            "Name": "Braves",
+            "A": "4",
+            "Mv": "3\"",
+            "CM": "A*",
+            "DP": "3",
+            "Pts": 35,
+            "Type": "Infantry",
+            "Category": "Troops",
+            "CQB": "2",
+            "F": "3+",
+            "S+C": "2 B2B",
+            "T": "b1",
+            "Special": "Warsuit*",
+            "Weapons": [
+                {
+                    "Name": "Discus Launchers",
+                    "E": "3",
+                    "SH": "8",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "6\"",
+                    "MF": "3\"",
+                    "ARC": "F/S/R",
+                    "Special": "RW-4, SA-7, AB"
+                },
+                {
+                    "Name": "Gauss Rifle",
+                    "E": "9",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "18\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "SC"
+                }
+            ],
+            "*": "* Warsuit: This unit's Active Countermeasures only take effect against weapons of E6 or less. In addition, hit from Collatoral Damage will always damage this unit on a 5+."
+        }
+    ],
+    "Scout": [
+        {
+            "Name": "Samurai",
+            "A": "5",
+            "Mv": "4\"",
+            "CM": "A*, P6+",
+            "DP": "1",
+            "Pts": 20,
+            "Type": "Vehicle",
+            "Category": "Scout",
+            "S+C": "3-6",
+            "T": "a0.5, b0.5",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Bio-Atomiser",
+                    "E": "5",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "Flame"
+                },
+                {
+                    "Name": "Energy Blade",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "CC",
+                    "R(C)": "CC",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "-"
+                }
+            ],
+            "*": "* Heavy Warsuit: These Active Countermeasures only take effect against weapons of E6 or less."
+        },
+        {
+            "Name": "Yari A",
+            "A": "5",
+            "Mv": "12\"",
+            "CM": "A, P5+",
+            "DP": "1",
+            "Pts": 20,
+            "Type": "Vehicle",
+            "Category": "Scout",
+            "S+C": "2-8",
+            "T": "a1, b1",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Microwave Gun",
+                    "E": "4",
+                    "SH": "6",
+                    "AC": "2+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "Through Cover*"
+                }
+            ],
+            "*": "* This weapon ignores Soft Cover."
+        },
+        {
+            "Name": "Yari B",
+            "A": "5",
+            "Mv": "12\"",
+            "CM": "A, P5+",
+            "DP": "1",
+            "Pts": 25,
+            "Type": "Vehicle",
+            "Category": "Scout",
+            "S+C": "2-8",
+            "T": "a1, b1",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Light Ion Cannon",
+                    "E": "6",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "6\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                }
+            ]
+        }
+    ],
+    "Heavy": [
+        {
+            "Name": "Caiman",
+            "A": "7",
+            "Mv": "6\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 100,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-3 Wide",
+            "T": "a3",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Gauss Triad",
+                    "E": "10",
+                    "SH": "3",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "36\"",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Laser Pod",
+                    "E": "7",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "6\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Laser Pod",
+                    "E": "7",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "6\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "Leopard",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 85,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-3",
+            "T": "a3",
+            "Special": "Walker",
+            "Weapons": [
+                {
+                    "Name": "Dragon Cannon",
+                    "E": "4",
+                    "SH": "12",
+                    "AC": "2+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(L)",
+                    "Special": "Alt-1, Through Cover"
+                },
+                {
+                    "Name": "Dragon Cannon",
+                    "E": "4",
+                    "SH": "12",
+                    "AC": "2+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(R)",
+                    "Special": "Alt-2, Through Cover"
+                },
+                {
+                    "Name": "Concentrated Beam",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "9\"",
+                    "R(C)": "9\"",
+                    "MF": "4\"",
+                    "ARC": "F",
+                    "Special": "Alt-1&2"
+                },
+                {
+                    "Name": "Thermal Lance",
+                    "E": "12",
+                    "SH": "2",
+                    "AC": "2+",
+                    "R(F)": "9\"",
+                    "R(C)": "9\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "Panther",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 125,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-2",
+            "T": "a3",
+            "Special": "Walker",
+            "Weapons": [
+                {
+                    "Name": "Particle Triad",
+                    "E": "8",
+                    "SH": "3",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "2\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA, *"
+                }
+            ],
+            "*": "* Slow To Traverse: When this weapon reaction fires, it suffers a +4 modifier to its accuracy modifier rather than the normal 2+."
+        },
+        {
+            "Name": "Crocodile",
+            "A": "7",
+            "Mv": "6\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 115,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-2",
+            "T": "a3",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Partical Cannon (Low Power)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "6\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1, Demolisher-2, Awesome Power*"
+                },
+                {
+                    "Name": "Partical Cannon (High Power)",
+                    "E": "13",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1, Demolisher-D3+2, Awesome Power*"
+                }
+            ],
+            "*": "* Awesome Power: This weapon ignores ALL countermeasures including passive and evasion."
+        },
+        {
+            "Name": "Jaguar",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 110,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-3",
+            "T": "a3",
+            "Special": "Walker",
+            "Weapons": [
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Twin Ion Cannons",
+                    "E": "6",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                }
+            ]
+        },
+        {
+            "Name": "Ocelot",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 95,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-3",
+            "T": "a3",
+            "Special": "Walker",
+            "Weapons": [
+                {
+                    "Name": "Particle Cannon",
+                    "E": "13",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "2\"",
+                    "ARC": "F/S/R",
+                    "Special": "Demolisher-D3+2, Awesome Firepower*"
+                }
+            ],
+            "*": "* This weapon ignores ALL countermeasures, including Passive ones!"
+        }
+    ],
+    "Support": [
+        {
+            "Name": "Dreamsnare",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 85,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "1",
+            "T": "a3",
+            "Special": "Walker, Shield Boost*",
+            "Weapons": [
+                {
+                    "Name": "Dragon Cannon",
+                    "E": "4",
+                    "SH": "12",
+                    "AC": "2+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(L)",
+                    "Special": "Alt-1, Through Cover"
+                },
+                {
+                    "Name": "Dragon Cannon",
+                    "E": "4",
+                    "SH": "12",
+                    "AC": "2+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S(R)",
+                    "Special": "Alt-2, Through Cover"
+                },
+                {
+                    "Name": "Concentrated Beam",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "9\"",
+                    "R(C)": "4\"",
+                    "MF": "4\"",
+                    "ARC": "F",
+                    "Special": "Alt-1&2"
+                }
+            ],
+            "*": "* Shield Boosting Relay: This device improves the effectiveness of Shaltari energy shields. All friendly Shaltari units within 6” of the Dreamsnare (including itself) gain a -1 modifier to their Passive Countermeasures value (but only if they have one). Measure this distance as you would measure weapon range. This effect is NOT cumulative if multiple Dreamsnares are in range."
+        },
+        {
+            "Name": "Kukri",
+            "A": "7",
+            "Mv": "9\"",
+            "CM": "A, P5+",
+            "DP": "1",
+            "Pts": 40,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "3 Wide",
+            "T": "a1",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Twin Ion Cannons",
+                    "E": "6",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                }
+            ]
+        },
+        {
+            "Name": "Firedrake",
+            "A": "5",
+            "Mv": "20\"",
+            "CM": "A, P5+",
+            "DP": "5",
+            "Pts": 135,
+            "Type": "Aircraft",
+            "Category": "Support",
+            "S+C": "1",
+            "LZ": "L",
+            "T": "A3",
+            "Special": "Auxiliary Gate*",
+            "Weapons": [
+                {
+                    "Name": "Disruption Cannon (Far)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "48\"",
+                    "R(C)": "48\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, Area-S"
+                },
+                {
+                    "Name": "Disruption Cannon (Normal)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "24\"",
+                    "R(C)": "24\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, Area-M"
+                },
+                {
+                    "Name": "Disruption Cannon (Short)",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "10\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, Area-L"
+                },
+                {
+                    "Name": "Dragon Cannon",
+                    "E": "4",
+                    "SH": "12",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-2, Through Cover"
+                },
+                {
+                    "Name": "Concentrated Beam",
+                    "E": "9",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "9\"",
+                    "R(C)": "9\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-2"
+                }
+            ],
+            "*": "* Auxiliary Gate: The Firedrake incorporates its own integrated teleport Gate system. At the beginning of each turn, nominate whether the Firedrake will be activating in ‘Normal’ or ‘Gate’ mode. If in ‘Normal’ mode, the Firedrake functions as normal this turn. If in ‘Gate’ mode, the Firedrake functions exactly like other Gates in respects and may not shoot that turn. Since it’s an auxiliary system, the Firedrake ignores the Charged Atmosphere and Prudent Pilots’ rule."
+        },
+        {
+            "Name": "Totem Warspire",
+            "A": "8",
+            "Mv": "0\"",
+            "CM": "A, P5+",
+            "DP": "4",
+            "Pts": 50,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "1",
+            "T": "a3",
+            "Special": "Lightning Reflexes",
+            "Weapons": [
+                {
+                    "Name": "Energy Beam",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "12\"",
+                    "R(C)": "12\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1"
+                },
+                {
+                    "Name": "Energy Shield",
+                    "E": "-",
+                    "SH": "1",
+                    "AC": "-",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1, Shield*"
+                },
+                {
+                    "Name": "Energized Atmosphere",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                }
+            ],
+            "*": "* Structure Shield: This ability counts as a weapon shot and follows all normal rules for weapons (Line of Sight etc). It hits automatically. A hit grants a Structure, Forest, or Barricade a 5+ Passive Countermeasures save until the Totem is next activated or Dematerialized. This effect is removed instantly if the Totem is destroyed."
+        },
+        {
+            "Name": "Birdeater Battle Strider",
+            "A": "8",
+            "Mv": "6\"",
+            "CM": "A, P5+",
+            "DP": "2",
+            "Pts": 45,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "2",
+            "T": "a1.5",
+            "Special": "Walker, Climber*",
+            "Weapons": [
+                {
+                    "Name": "Twin Ion Cannons",
+                    "E": "6",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "CA-1, AA"
+                },
+                {
+                    "Name": "Laser Pod",
+                    "E": "7",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "6\"",
+                    "ARC": "F/S",
+                    "Special": "CA-1"
+                }
+            ],
+            "*": "* Climber: Instead of making a normal move, this unit may climb/descend to/from the roof of a structure less than 7” high if it is within 2” of any wall. To do so, place the unit on the roof/ground and within 4” of its starting point (measured along ground level). This counts as a 6” move."
+        },
+        {
+            "Name": "Firebird",
+            "A": "5",
+            "Mv": "20\"",
+            "CM": "A, P5+, E+2",
+            "DP": "1",
+            "Pts": 40,
+            "Type": "Aircraft",
+            "Category": "Support",
+            "S+C": "1-2 Wide",
+            "LZ": "S",
+            "T": "-",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin Disintegrators",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "Devastator-2"
+                }
+            ]
+        },
+        {
+            "Name": "Thunderbird",
+            "A": "5",
+            "Mv": "20\"",
+            "CM": "A, P5+, E+2",
+            "DP": "1",
+            "Pts": 38,
+            "Type": "Aircraft",
+            "Category": "Support",
+            "S+C": "1-4 Wide",
+            "LZ": "S",
+            "T": "-",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Short Barrel Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "18\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "-"
+                }
+            ]
+        }
+    ],
+    "Exotic": [
+        {
+            "Name": "Ronin",
+            "A": "5",
+            "Mv": "4\"",
+            "CM": "A*, P6+",
+            "DP": "1",
+            "Pts": 15,
+            "Type": "Vehicle",
+            "Category": "Exotic",
+            "S+C": "3-6",
+            "T": "a0.5, b0.5",
+            "Special": "Lightning Reflexes",
+            "Weapons": [
+                {
+                    "Name": "Gauss Carbine",
+                    "E": "9",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "SC"
+                }
+            ],
+            "*": "* Heavy Warsuit: These Active Countermeasures only take effect against weapons of E6 or less."
+        },
+        {
+            "Name": "Firstborn",
+            "A": "4",
+            "Mv": "3\"",
+            "CM": "A*",
+            "DP": "3",
+            "Pts": 48,
+            "Type": "Infantry",
+            "Category": "Exotic",
+            "CQB": "4",
+            "F": "3+",
+            "S+C": "2 B2B",
+            "T": "b1",
+            "Special": "Warsuit*, Dodge 4+, Incapacitate**",
+            "Weapons": [
+                {
+                    "Name": "Energy Sword",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "2+",
+                    "R(F)": "CC",
+                    "R(C)": "CC",
+                    "MF": "3\"",
+                    "ARC": "F/S/R",
+                    "Special": "RW-1"
+                }
+            ],
+            "*": "* Warsuit: This unit’s Active Countermeasures only take effects against weapons of E6 or less. In addition, hit from Collateral Damage will always damage this unit on a 5+.",
+            "**": "** Incapacitate: Firstborns may use their Wave Pistols to render opponents helpless during CQB’s. You may discard 2 dice contributed by Firstborns in Step-1 of a CQB fight sequence in order to negate 1 dice of an enemy base in that fight sequence. This may be done up to 3 times per Firstborn base."
+        }
+    ],
+    "Gate": [
+        {
+            "Name": "Eden",
+            "A": "4",
+            "Mv": "20\"",
+            "CM": "A, P5+",
+            "DP": "3",
+            "Pts": 40,
+            "Type": "Aircraft",
+            "Category": "Gate",
+            "S+C": "1",
+            "LZ": "L",
+            "T": "A3",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Charged Atmosphere",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "4\"",
+                    "R(C)": "4\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA, Side Effect*"
+                }
+            ],
+            "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
+        },
+        {
+            "Name": "Gaia",
+            "A": "4",
+            "Mv": "20\"",
+            "CM": "A, P5+",
+            "DP": "5",
+            "Pts": 70,
+            "Type": "Aircraft",
+            "Category": "Gate",
+            "S+C": "1",
+            "LZ": "L",
+            "T": "A9",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Charged Atmosphere",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "4\"",
+                    "R(C)": "4\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA, Side Effect*"
+                }
+            ],
+            "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
+        },
+        {
+            "Name": "Spirit",
+            "A": "4",
+            "Mv": "30\"",
+            "CM": "A, P5+",
+            "DP": "1",
+            "Pts": 40,
+            "Type": "Aircraft",
+            "Category": "Gate",
+            "S+C": "1",
+            "LZ": "S",
+            "T": "B2",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Charged Atmosphere",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "4\"",
+                    "R(C)": "4\"",
+                    "MF": "10\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA, Side Effect*"
+                }
+            ],
+            "*": "* This weapon may only be fired as Reaction Fire against Aircraft in the air."
+        },
+        {
+            "Name": "Haven",
+            "A": "7",
+            "Mv": "9\"",
+            "CM": "A, P5+",
+            "DP": "2",
+            "Pts": 20,
+            "Type": "Vehicle",
+            "Category": "Gate",
+            "S+C": "1",
+            "T": "B2, a1.5",
+            "Special": "Skimmer",
+            "Weapons": [
+                {
+                    "Name": "Charged Earth",
+                    "E": "3",
+                    "SH": "6",
+                    "AC": "3+",
+                    "R(F)": "4\"",
+                    "R(C)": "4\"",
+                    "MF": "9\"",
+                    "ARC": "F/S/R",
+                    "Special": "-"
+                }
+            ]
+        }
+    ],
+    "Airstrike": [
+        {
+            "Name": "Warspear",
+            "A": "5",
+            "CM": "A, P5+",
+            "DP": "1",
+            "Pts": 45,
+            "Pts/Run": "45 (230)",
+            "Type": "Aircraft",
+            "Category": "Airstrike",
+            "S+C": "2 Wide",
+            "LZ": "S",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin Heavy Ion Cannons",
+                    "E": "7",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "18\"",
+                    "R(C)": "18\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1, AA"
+                },
+                {
+                    "Name": "Gauss Cannon",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1"
+                }
+            ]
+        }
+    ]
+}

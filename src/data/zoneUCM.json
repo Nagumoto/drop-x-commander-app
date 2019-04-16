@@ -1,0 +1,1282 @@
+{
+    "Command": [
+        {
+            "Name": "Kodiak",
+            "A": "9",
+            "Mv": "4\"",
+            "CM": "A",
+            "DP": "4",
+            "Pts": 105,
+            "Type": "Vehicle",
+            "Category": "Command",
+            "S+C": "1",
+            "T": "a3",
+            "Special": "*Tactival Operations Center",
+            "Weapons": [
+                {
+                    "Name": "Tactical Orbital Strike",
+                    "E": "13",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "IF, Area-S, Demolisher 2"
+                }
+            ],
+            "*": "* Tactical Operations Center: This vehicle is designed for efficient command communications at the combat front. Any commander using this command vehicle adds +1 to their Command Value."
+        },
+        {
+            "Name": "Phoenix Command Gunship",
+            "A": "5",
+            "Mv": "16\"",
+            "CM": "A",
+            "DP": "9",
+            "Pts": 190,
+            "Type": "Aircraft",
+            "Category": "Command",
+            "S+C": "1",
+            "LZ": "L",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Missile Battery",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "4\"",
+                    "ARC": "F",
+                    "Special": "L-2, Area-L"
+                },
+                {
+                    "Name": "AA Battery",
+                    "E": "6",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "8\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                },
+                {
+                    "Name": "Minigun Triad",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "8\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Minigun Triad",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "8\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "X-116 Super Phoenix",
+            "A": "5",
+            "Mv": "16\"",
+            "CM": "A",
+            "DP": "9",
+            "Pts": 220,
+            "Type": "Aircraft",
+            "Category": "Command",
+            "S+C": "1",
+            "LZ": "L",
+            "Special": "*Advanced Command Suite",
+            "Weapons": [
+                {
+                    "Name": "Missile Battery",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "4\"",
+                    "ARC": "F",
+                    "Special": "L-2, Area-L"
+                },
+                {
+                    "Name": "Missile Pods",
+                    "E": "9",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "8\"",
+                    "ARC": "F",
+                    "Special": "SC"
+                },
+                {
+                    "Name": "AA Battery",
+                    "E": "6",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "8\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                },
+                {
+                    "Name": "Minigun Triad",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "8\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Minigun Triad",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "8\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Minigun Triad",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "8\"",
+                    "ARC": "F",
+                    "Special": "-"
+                }
+            ],
+            "*": "* Advanced Command Suite: Any Commander mounted in a Super Phoenix automatically increases his Radius value to 48\"."
+        }
+    ],
+    "Standard": [
+        {
+            "Name": "Katana Light Tank",
+            "A": "9",
+            "Mv": "6\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 35,
+            "Type": "Vehicle",
+            "Category": "Standard",
+            "S+C": "3-9",
+            "T": "a1",
+            "Special": "Smoke Launcher*",
+            "Weapons": [
+                {
+                    "Name": "Twin Cannon",
+                    "E": "9",
+                    "SH": "2",
+                    "AC": "2+",
+                    "R(F)": "48\"",
+                    "R(C)": "18\"",
+                    "MF": "6\"",
+                    "ARC": "F/S/R",
+                    "Special": ""
+                }
+            ],
+            "*": "* Smoke Launcher: Once per game, when no units in this squad have shot, the squad may instead use its smoke launchers during its activation. Weapons fired against units in this squad, and other units within 2” of any unit in this squad, suffer a +2 Ac modifier until it is next activated. Using Smoke Launchers does not count as shooting."
+        },
+        {
+            "Name": "Sabre",
+            "A": "10",
+            "Mv": "4\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 33,
+            "Type": "Vehicle",
+            "Category": "Standard",
+            "S+C": "3-9",
+            "T": "a1",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UM-100 \"Avenger\" Railgun",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "Articulated"
+                },
+                {
+                    "Name": "UM-50 \"Equaliser\" (UM-18) Machinegun",
+                    "E": "3",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "4\"",
+                    "ARC": "F/S",
+                    "Special": "-"
+                }
+            ]
+        }
+    ],
+    "Troops": [
+        {
+            "Name": "Legionnaire Mortar Team",
+            "A": "2",
+            "Mv": "2\"",
+            "CM": "-",
+            "DP": "6",
+            "Pts": 35,
+            "Type": "Infantry",
+            "Category": "Troops",
+            "CQB": "0.5",
+            "F": "5+",
+            "S+C": "2, B2B",
+            "T": "c1.5",
+            "Special": "DF",
+            "Weapons": [
+                {
+                    "Name": "Hi-Ex Mortar Round",
+                    "E": "6",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "-",
+                    "R(C)": "-",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "SC, Alt-1, Barrage-3, RW*, ***"
+                },
+                {
+                    "Name": "Concussion Round**",
+                    "E": "-",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "48\"",
+                    "R(C)": "18\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "IF, Alt-1, ***"
+                }
+            ],
+            "*": "* Weapons Team (loader): This weapon reduces its Barrage value by 1 for every 2 damage points sustained.",
+            "**": "** Concussion Barrage: If a Feature is hit by this munition ALL infantry are pushed back inside, and no Infantry can go to the walls or edge of that Feature for the remainder of the turn.",
+            "***": "*** Mortar: This weapon counts as Arc - Front when firing from the windows of a building."
+        },
+        {
+            "Name": "Legionnaire Flak Team",
+            "A": "2",
+            "Mv": "2\"",
+            "CM": "A",
+            "DP": "6",
+            "Pts": 35,
+            "Type": "Infantry",
+            "Category": "Troops",
+            "CQB": "0.5",
+            "F": "5+",
+            "S+C": "2, B2B",
+            "T": "c1.5",
+            "Special": "DF",
+            "Weapons": [
+                {
+                    "Name": "UM-17 Anti-Air Cannon",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "30\"",
+                    "R(C)": "18\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA, RW*"
+                }
+            ],
+            "*": "* Weapons Team (loader): This weapon reduces its Sh value by 1 for every 2 damage points sustained."
+        },
+        {
+            "Name": "Legionnaires",
+            "A": "2",
+            "Mv": "2\"",
+            "CM": "-",
+            "DP": "5",
+            "Pts": 22,
+            "Type": "Infantry",
+            "Category": "Troops",
+            "CQB": "1",
+            "F": "5+",
+            "S+C": "2-3, B2B",
+            "T": "c1",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UM-3 Assault Rifles",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "1\"",
+                    "ARC": "F/S/R",
+                    "Special": "RW-1, SA-6"
+                },
+                {
+                    "Name": "\"Phoenix\" Missile Launcher",
+                    "E": "9",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "9\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "SC"
+                }
+            ]
+        }
+    ],
+    "Scout": [
+        {
+            "Name": "Praetorian Sniper Team",
+            "A": "2",
+            "Mv": "3\"",
+            "CM": "E+2",
+            "DP": "3",
+            "Pts": 35,
+            "Type": "Infantry",
+            "Category": "Scout",
+            "CQB": "2",
+            "F": "3+",
+            "S+C": "2-3, B2B",
+            "T": "c1",
+            "Special": "Dodge 4+, Infiltrate-18, DF",
+            "Weapons": [
+                {
+                    "Name": "UM-1 Sniper Rifles",
+                    "E": "4",
+                    "SH": "3",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "18\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "Sniper, RW-1, SA-7*"
+                }
+            ],
+            "*": "* Precision Small Arms: Praetorian Snipers are expert marksman armed with heavy calibre, high velocity rifles. As such they can be a threat to loitering aircraft by targeting poorly armored, vulnerable areas. When using the Small Arms (SA) rule, this weapon may use its full R(f) and R(c) values, rather than the standard 6”. However, this requires careful aim, and therefore this weapon cannot be used in Reaction Fire."
+        },
+        {
+            "Name": "Starsprite Drones",
+            "A": "3",
+            "Mv": "30\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": "-",
+            "Type": "Aircraft",
+            "Category": "Scout",
+            "S+C": "8",
+            "LZ": "Tiny",
+            "T": "-",
+            "Special": "Cloud Formation*",
+            "Weapons": [
+                {
+                    "Name": "UM-110 Golden Arrow**",
+                    "E": "6",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "24\"",
+                    "R(C)": "6\"",
+                    "MF": "15\"",
+                    "ARC": "F",
+                    "Special": "Focus-3, AA(May not reaction fire)"
+                }
+            ],
+            "*": "* Cloud Formation: Starsprites fly in tight, close formation in order to combine fire and share targeting information. Any AA weapon with multiple shots firing against a squadron of Starsprite drones in coherency may allocate each shot to separate targets within the squadron. Normal rules for range and line of sight still apply.",
+            "**": "** This weapon cannot use its Focus fire against Aircraft Units while they are in the air due to its inaccuracy and the coordinated effort need for shooting flying units. However, Aircraft units that have landed are fair game."
+        },
+        {
+            "Name": "Wolverine A",
+            "A": "6",
+            "Mv": "9\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 18,
+            "Type": "Vehicle",
+            "Category": "Scout",
+            "S+C": "4-8",
+            "T": "b1",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UM-303 \"Punisher\" Minigun",
+                    "E": "6",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "36\"",
+                    "R(C)": "12\"",
+                    "MF": "9\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA"
+                }
+            ]
+        },
+        {
+            "Name": "Wolverine B",
+            "A": "6",
+            "Mv": "9\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 16,
+            "Type": "Vehicle",
+            "Category": "Scout",
+            "S+C": "4-8",
+            "T": "b1",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "\"Phoneix\" Missile Launcher",
+                    "E": "9",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "9\"",
+                    "MF": "9\"",
+                    "ARC": "F/S/R",
+                    "Special": "SC"
+                }
+            ]
+        },
+        {
+            "Name": "Wolverine C",
+            "A": "6",
+            "Mv": "9\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 20,
+            "Type": "Vehicle",
+            "Category": "Scout",
+            "S+C": "4-8",
+            "T": "b1",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Flamethrower",
+                    "E": "4",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "3\"",
+                    "R(C)": "3\"",
+                    "MF": "9\"",
+                    "ARC": "F/S/R",
+                    "Special": "Flame"
+                }
+            ]
+        }
+    ],
+    "Heavy": [
+        {
+            "Name": "Broadsword",
+            "A": "10",
+            "Mv": "4\"",
+            "CM": "A",
+            "DP": "4",
+            "Pts": 75,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "1-3, Wide",
+            "T": "a3",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Mythslayer Railguns",
+                    "E": "11",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "36\"",
+                    "MF": "4\"",
+                    "ARC": "F/S",
+                    "Special": "Devastator-2"
+                }
+            ]
+        },
+        {
+            "Name": "Gladius",
+            "A": "10",
+            "Mv": "3\"",
+            "CM": "A",
+            "DP": "2",
+            "Pts": 55,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "2-6",
+            "T": "a1.5",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin UM-100 \"Avenger\" Railguns",
+                    "E": "10",
+                    "SH": "2",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "3\"",
+                    "ARC": "F/S/R",
+                    "Special": "Articulated"
+                },
+                {
+                    "Name": "Twin UM-55 Gatling",
+                    "E": "4",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "12\"",
+                    "MF": "3\"",
+                    "ARC": "F/S",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "Scimitar",
+            "A": "10",
+            "Mv": "3\"",
+            "CM": "A",
+            "DP": "2",
+            "Pts": 50,
+            "Type": "Vehicle",
+            "Category": "Heavy",
+            "S+C": "2-4",
+            "T": "a1.5",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UMX-1 \"Marksman\" Laser",
+                    "E": "11",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "1\"",
+                    "ARC": "N",
+                    "Special": "Destroyer 6+"
+                },
+                {
+                    "Name": "Twin UM-55 Gatling",
+                    "E": "4",
+                    "SH": "4",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "12\"",
+                    "MF": "3\"",
+                    "ARC": "F/S",
+                    "Special": "-"
+                }
+            ]
+        }
+    ],
+    "Support": [
+        {
+            "Name": "Eagle Heavy Gunship",
+            "A": "5",
+            "Mv": "18\"",
+            "CM": "A",
+            "DP": "3",
+            "Pts": 100,
+            "Type": "Aircraft",
+            "Category": "Support",
+            "S+C": "1",
+            "LZ": "L",
+            "T": "-",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin Heavy Railguns",
+                    "E": "11",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "6\"",
+                    "ARC": "N",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Multi Missile Pods",
+                    "E": "9",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "6\"",
+                    "MF": "6\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Multi Missile Pods",
+                    "E": "9",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "6\"",
+                    "MF": "6\"",
+                    "ARC": "F/S(R)",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "Ferrum Class Drone Base",
+            "A": "7",
+            "Mv": "3\"",
+            "CM": "A",
+            "DP": "5",
+            "Pts": 155,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "1",
+            "T": "a9",
+            "Special": "Drone Base*, Rare",
+            "Weapons": [
+                {
+                    "Name": "Twin UM-5 Gatling (Left)",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "3\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Twin UM-5 Gatling (Right)",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "3\"",
+                    "ARC": "F/S(L)",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Point Defense Launchers",
+                    "E": "6",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "3\"",
+                    "ARC": "F/S/R",
+                    "Special": "AA, SC"
+                }
+            ],
+            "*": "* Drone Base: During its first activation a Ferrum Class Drone Base may deploy a squad of up to eight Starsprite Drones (the normal rules for Transports apply). However, if the Ferrum is destroyed then all Drones onboard and those deployed by it are instantly destroyed as well. In subsequent activations, the Ferrum may replenish up to four losses from the Drone Squadron by deploying new ones at the start of its activation, before existing Starsprite Drones activate. It may deploy an unlimited number throughout the game, but only eight may be in the air at any one time. The newly deployed Drones do NOT have to fly into coherency with previously deployed Drones."
+        },
+        {
+            "Name": "Longbow Howitzer",
+            "A": "7",
+            "Mv": "0\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 30,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "1-4",
+            "T": "b2",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Armour Piercing",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "0\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, IF"
+                },
+                {
+                    "Name": "Daisy Cutter",
+                    "E": "8",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "0\"",
+                    "ARC": "F",
+                    "Special": "Area-M, Defoliator-3"
+                },
+                {
+                    "Name": "Point Defense Launchers",
+                    "E": "-",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1, IF, Smoke*"
+                }
+            ],
+            "*": "* Smart Smoke: This ability counts as a weapon shot and follows all the normal rules for weapons. This weapon may also be fired against friendly Units (in other Squads), in which case the R(f) value may be used against friendly Units with Active Countermeasures. A successful hit affects the entire Squad to which the targeted unit belongs. Weapons fired by units in this squad suffer a +1 Ac modifier. Weapons fired against units in this squad suffer a +1 Ac modifier. This effect is cumulative up to a maximum of 2+ and normally remains in effect until the Longbows squad is next activated. If every Longbow in the squad is destroyed then the effect is removed instantly. The effect may be removed prematurely from any targeted friendly units at any time during their activation."
+        },
+        {
+            "Name": "Fireblade Light Tank",
+            "A": "9",
+            "Mv": "6\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 35,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "3-9",
+            "T": "a1",
+            "Special": "Smoke Launcher*",
+            "Weapons": [
+                {
+                    "Name": "Flamethrower",
+                    "E": "4",
+                    "SH": "6",
+                    "AC": "3+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "6\"",
+                    "ARC": "F/S/R",
+                    "Special": "Flame"
+                }
+            ],
+            "*": "* Smoke Launcher: Once per game, when no units in this squad have shot, the squad may instead use its smoke launchers during its activation. Weapons fired against units in this squad, and other units within 2” of any unit in this squad, suffer a +2 Ac modifier until it is next activated. Using Smoke Launchers does not count as shooting."
+        },
+        {
+            "Name": "Crossbow",
+            "A": "7",
+            "Mv": "0\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 20,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "1-4 Wide",
+            "T": "b2",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Sharpshot Laser",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "∞",
+                    "MF": "0\"",
+                    "ARC": "F",
+                    "Special": "Destroyer 6+"
+                }
+            ]
+        },
+        {
+            "Name": "Falcon A",
+            "A": "5",
+            "Mv": "24\"",
+            "CM": "A, E+2",
+            "DP": "1",
+            "Pts": 40,
+            "Type": "Aircraft",
+            "Category": "Support",
+            "S+C": "1-4 Wide",
+            "LZ": "S",
+            "T": "-",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin UM-28 Gatling Cannon",
+                    "E": "11",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "12\"",
+                    "ARC": "N",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Twin UM-5 Gatling",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "12\"",
+                    "ARC": "F",
+                    "Special": "-"
+                }
+            ]
+        },
+        {
+            "Name": "Falcon B",
+            "A": "5",
+            "Mv": "24\"",
+            "CM": "A, E+2",
+            "DP": "1",
+            "Pts": 50,
+            "Type": "Aircraft",
+            "Category": "Support",
+            "S+C": "1-2 Wide",
+            "LZ": "S",
+            "T": "-",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UM90 Multimissile (AP)",
+                    "E": "8",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "12\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, SC"
+                },
+                {
+                    "Name": "UM90 Multimissile (Airburst)",
+                    "E": "6",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "12\"",
+                    "ARC": "F",
+                    "Special": "Alt-1, AA"
+                }
+            ]
+        },
+        {
+            "Name": "Rapier",
+            "A": "10",
+            "Mv": "4\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 43,
+            "Type": "Vehicle",
+            "Category": "Support",
+            "S+C": "3 Wide",
+            "T": "a1",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Vindicator (Focused Pattern)",
+                    "E": "7",
+                    "SH": "3",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "18\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1, AA, Articulated"
+                },
+                {
+                    "Name": "Vindicator (Wide Pattern)",
+                    "E": "4",
+                    "SH": "8",
+                    "AC": "3+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "4\"",
+                    "ARC": "F/S/R",
+                    "Special": "Alt-1, Articulated"
+                },
+                {
+                    "Name": "UM-50 \"Equaliser\" (UM-18) Machinegun",
+                    "E": "3",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "4\"",
+                    "ARC": "F/S",
+                    "Special": "-"
+                }
+            ]
+        }
+    ],
+    "Exotic": [
+        {
+            "Name": "Hazard Suit Team",
+            "A": "4",
+            "Mv": "1\"",
+            "CM": "-",
+            "DP": "3",
+            "Pts": 35,
+            "Type": "Infantry",
+            "Category": "Exotic",
+            "CQB": "1",
+            "F": "3+",
+            "S+C": "2, B2B",
+            "T": "c1",
+            "Special": "DF, Hazard Suit*",
+            "Weapons": [
+                {
+                    "Name": "Light Rail Guns",
+                    "E": "6",
+                    "SH": "3",
+                    "AC": "2+",
+                    "R(F)": "∞",
+                    "R(C)": "24\"",
+                    "MF": "0\"",
+                    "ARC": "F/S/R",
+                    "Special": "Focus-2, RW-1"
+                }
+            ],
+            "*": "* Hazard Suit: Hazard Suits were designed for heavy, labor intensive environments. While they can take incredible punishment and still be viable, they are not nimble or fast moving.  Collateral Damage only happens on a roll of 6+ against a feature."
+        },
+        {
+            "Name": "Praetorians",
+            "A": "2",
+            "Mv": "2\"",
+            "CM": "-",
+            "DP": "5",
+            "Pts": 48,
+            "Type": "Infantry",
+            "Category": "Exotic",
+            "CQB": "3",
+            "F": "3+",
+            "S+C": "2-3, B2B",
+            "T": "c1",
+            "Special": "Dodge 4+, Fast Roping 4\"",
+            "Weapons": [
+                {
+                    "Name": "UM-3 SMG Special",
+                    "E": "2",
+                    "SH": "10",
+                    "AC": "2+",
+                    "R(F)": "12\"",
+                    "R(C)": "6\"",
+                    "MF": "2\"",
+                    "ARC": "F/S/R",
+                    "Special": "RW-2"
+                }
+            ]
+        }
+    ],
+    "Transport": [
+        {
+            "Name": "Albatross",
+            "A": "5",
+            "Mv": "18\"",
+            "CM": "A",
+            "DP": "6",
+            "Pts": 65,
+            "Type": "Aircraft",
+            "Category": "Transport",
+            "S+C": "1",
+            "LZ": "L",
+            "T": "A9",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UM-50 Machineguns (Left Battery)",
+                    "E": "4",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "36\"",
+                    "R(C)": "12\"",
+                    "MF": "9\"",
+                    "ARC": "F/S(L)/R",
+                    "Special": "-"
+                },
+                {
+                    "Name": "UM-50 Machineguns (Right Battery)",
+                    "E": "4",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "36\"",
+                    "R(C)": "12\"",
+                    "MF": "9\"",
+                    "ARC": "F/S(R)/R",
+                    "Special": "-"
+                },
+                {
+                    "Name": "Twin UM-5 Gatling",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "9\"",
+                    "ARC": "F",
+                    "Special": "-"
+                },
+                {
+                    "Name": "*Missile Pods",
+                    "Pts": 5,
+                    "E": "8",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "9\"",
+                    "ARC": "F",
+                    "Special": "SC"
+                }
+            ],
+            "*": "* May take Missile Pods for +5pts"
+        },
+        {
+            "Name": "Condor",
+            "A": "5",
+            "Mv": "18\"",
+            "CM": "A",
+            "DP": "3",
+            "Pts": 30,
+            "Type": "Aircraft",
+            "Category": "Transport",
+            "S+C": "1",
+            "LZ": "L",
+            "T": "A3",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin UM-5 Gatling",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "9\"",
+                    "ARC": "F",
+                    "Special": "-"
+                },
+                {
+                    "Name": "*Missile Pods",
+                    "Pts": 5,
+                    "E": "8",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "9\"",
+                    "ARC": "F",
+                    "Special": "SC"
+                }
+            ],
+            "*": "* May take Missile Pods for +5pts"
+        },
+        {
+            "TypeName": "Raven",
+            "Name": "Raven A",
+            "A": "5",
+            "Mv": "24\"",
+            "CM": "A",
+            "DP": "1",
+            "Pts": 25,
+            "Type": "Aircraft",
+            "Category": "Transport",
+            "S+C": "1",
+            "LZ": "S",
+            "T": "C2",
+            "Special": "-",
+            "Name2": "Raven B",
+            "A2": "5",
+            "Mv2": "24\"",
+            "CM2": "A",
+            "DP2": "1",
+            "Pts2": 15,
+            "Type2": "Aircraft",
+            "Category2": "Transport",
+            "S+C2": "1",
+            "LZ2": "S",
+            "T2": "B2",
+            "Special2": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin UM-5 Gatling",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "12\"",
+                    "ARC": "F",
+                    "Special": "-"
+                },
+                {
+                    "Name": "*Missile Pods",
+                    "Pts": 5,
+                    "E": "8",
+                    "SH": "1",
+                    "AC": "3+",
+                    "R(F)": "36\"",
+                    "R(C)": "9\"",
+                    "MF": "9\"",
+                    "ARC": "F",
+                    "Special": "SC"
+                }
+            ],
+            "*": "* May take Missile Pods for +5pts"
+        },
+        {
+            "Name": "Bear",
+            "A": "8",
+            "Mv": "6\"",
+            "CM": "A",
+            "DP": "2",
+            "Pts": 15,
+            "Type": "Vehicle",
+            "Category": "Transport",
+            "S+C": "1",
+            "T": "C3, a1.5",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "Twin UM-5 Gatling",
+                    "E": "3",
+                    "SH": "4",
+                    "AC": "4+",
+                    "R(F)": "24\"",
+                    "R(C)": "12\"",
+                    "MF": "9\"",
+                    "ARC": "F",
+                    "Special": "-"
+                }
+            ]
+        }
+    ],
+    "Airstrike": [
+        {
+            "Name": "Seraphim Retaliator",
+            "A": "7",
+            "CM": "A",
+            "DP": "2",
+            "Run": 25,
+            "Pts": 230,
+            "Type": "Aircraft",
+            "Category": "Airstrike",
+            "S+C": "1",
+            "LZ": "L",
+            "Special": "Lumbering",
+            "Weapons": [
+                {
+                    "Name": "Heavenfire (Focused)",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1, AB"
+                },
+                {
+                    "Name": "Heavenfire (Firestorm)",
+                    "E": "4",
+                    "SH": "4",
+                    "AC": "2+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1, Flame"
+                },
+                {
+                    "Name": "Missile Cluster",
+                    "E": "10",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "-",
+                    "R(C)": "-",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1, Barrage-3, L-3"
+                }
+            ]
+        },
+        {
+            "Name": "Seraphim",
+            "A": "7",
+            "CM": "A",
+            "DP": "2",
+            "Run": 30,
+            "Pts": 260,
+            "Type": "Aircraft",
+            "Category": "Airstrike",
+            "S+C": "1",
+            "LZ": "L",
+            "Special": "Lumbering",
+            "Weapons": [
+                {
+                    "Name": "Heavenfire (Focused)",
+                    "E": "12",
+                    "SH": "1",
+                    "AC": "2+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1, AB"
+                },
+                {
+                    "Name": "Heavenfire (Firestorm)",
+                    "E": "4",
+                    "SH": "4",
+                    "AC": "2+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Alt-1, Flame"
+                },
+                {
+                    "Name": "Bunker Buster Spread",
+                    "E": "11",
+                    "SH": "2",
+                    "AC": "4+",
+                    "R(F)": "6\"",
+                    "R(C)": "6\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "Demolisher 3"
+                }
+            ]
+        },
+        {
+            "Name": "Archangel",
+            "A": "5",
+            "CM": "A",
+            "DP": "1",
+            "Run": 25,
+            "Pts": 160,
+            "Type": "Aircraft",
+            "Category": "Airstrike",
+            "S+C": "2 Wide",
+            "LZ": "S",
+            "Special": "-",
+            "Weapons": [
+                {
+                    "Name": "UM-50 Retribution Cannons",
+                    "E": "7",
+                    "SH": "2",
+                    "AC": "3+",
+                    "R(F)": "∞",
+                    "R(C)": "12\"",
+                    "MF": "-",
+                    "ARC": "N",
+                    "Special": "AA"
+                }
+            ]
+        }
+    ]
+}
