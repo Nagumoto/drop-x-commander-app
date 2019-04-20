@@ -7,27 +7,41 @@ import Home from './Home'
 class App extends Component {
 
   state = {
-    data: require('./DropXData.json'),
-    faction: '',
+    data: require('./data/DropXData.json'),
+    name: 'My Army',
     gameSize: '',
     gameSizePts: 1200,
-    commanders: 1,
-    commanderLVL: [1],
-    commanderAssignment: [''],
-    bgs: {
-      total: [],
-      hq: [],
-      armour: [],
-      infantry: [],
-      special: []
-    }
+    commanders: [
+      {
+        commanderLVL: 1,
+        commanderAssignment: ''
+      }
+    ],
+    bgs: [
+      [{
+        name: 'HQ',
+        units: []
+      }],
+      [{
+        name: 'ARMOUR',
+        units: []
+      }],
+      [{
+        name: 'INFANTRY',
+        units: []
+      }],
+      [{
+        name: 'SPECIAL',
+        units: []
+      }]
+    ]
   }
 
   changedBattlegroups = (e) => {
     console.log()
-    let bgs = Object.assign({}, this.state.bgs)
-    bgs = e.target.value
-    this.setState({ bgs }, console.log(this.state.bgs))
+    let total = Object.assign({}, this.state.bgs.total)
+    total = e.target.value
+    this.setState({ total }, console.log(this.state.bgs.total))
   }
 
   changedGameSize = (e) => {
@@ -35,7 +49,7 @@ class App extends Component {
     let gameSizePts = Object.assign({}, this.state.gameSizePts)
     gameSizePts = e.target.value
     this.setState({ gameSizePts })
-    this.setState({gameSize: this.gameSizeCategory()})
+    this.setState({ gameSize: this.gameSizeCategory() })
   }
 
   changedCommanders = (e) => {

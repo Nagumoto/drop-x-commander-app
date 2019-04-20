@@ -43,7 +43,7 @@ class UCM extends Component {
 
     consoleLogJSON = (e) => {
         e.preventDefault()
-        console.log(this.props.state)
+        console.log(this.props.state.data.Dropzone.UCM.Command.map((val) => val.Name))
     }
 
     renderCommanderAssignment = () => {

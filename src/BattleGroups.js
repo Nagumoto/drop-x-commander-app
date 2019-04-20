@@ -24,27 +24,27 @@ class BattleGroups extends Component {
     renderBattlegroup = (type) => {
 
         if (type === 'HQ') {
-            if (this.props.state.bgs.hq > 0) {
+            if (this.props.state.bgs.total[0] > 0) {
                 return (
-                    <Battlegroup type='Infantry' />
+                    <Battlegroup type='HQ' />
                 )
             }
         } else if (type === 'ARM') {
-            if (this.props.state.bgs.armour > 0) {
+            if (this.props.state.bgs.total[1] > 0) {
                 return (
-                    <Battlegroup type='Infantry' />
+                    <Battlegroup type='Armour' />
                 )
             }
         } else if (type === 'INF') {
-            if (this.props.state.bgs.infantry > 0) {
+            if (this.props.state.bgs.total[2] > 0) {
                 return (
                     <Battlegroup type='Infantry' />
                 )
             }
         } else if (type === 'SP') {
-            if (this.props.state.bgs.special > 0) {
+            if (this.props.state.bgs.total[3] > 0) {
                 return (
-                    <Battlegroup type='Infantry' />
+                    <Battlegroup type='Special' />
                 )
             }
         } else {
@@ -52,13 +52,15 @@ class BattleGroups extends Component {
         }
     }
 
+    clog = () => console.log(this.props.bgs.total[3])
+
     render = () => {
         if (this.props.gameSize === 'Skirmish') {
             return (
                 <div id="battlegroups">
                     <section id="HQ Battlegroup">
                         HQ Battlegroups:
-                        <select onChange={this.changedHQ}>
+                        <select value={this.props.state.hq} onChange={this.changedHQ}>
                             <option>0</option>
                             <option>1</option>
                         </select>
