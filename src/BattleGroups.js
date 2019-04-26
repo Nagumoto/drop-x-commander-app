@@ -24,27 +24,35 @@ class BattleGroups extends Component {
     renderBattlegroup = (type) => {
 
         if (type === 'HQ') {
-            if (this.props.state.bgs.total[0] > 0) {
-                return (
-                    <Battlegroup type='HQ' />
+            if (this.props.state.bgs.HQ) {
+                return this.props.state.bgs.HQ.map(
+                    (HQ, index) => (
+                    <Battlegroup type='HQ' units={HQ.units} number={index+1} />
+                    )
                 )
             }
         } else if (type === 'ARM') {
-            if (this.props.state.bgs.total[1] > 0) {
-                return (
-                    <Battlegroup type='Armour' />
+            if (this.props.state.bgs.ARMOUR) {
+                return this.props.state.bgs.ARMOUR.map(
+                    (armour, index) => (
+                    <Battlegroup type='Armour' units={armour.units} number={index+1} />
+                    )
                 )
             }
         } else if (type === 'INF') {
-            if (this.props.state.bgs.total[2] > 0) {
-                return (
-                    <Battlegroup type='Infantry' />
+            if (this.props.state.bgs.INFANTRY) {
+                return this.props.state.bgs.INFANTRY.map(
+                    (infantry, index) => (
+                    <Battlegroup type='Infantry' units={infantry.units} number={index+1} />
+                    )
                 )
             }
         } else if (type === 'SP') {
-            if (this.props.state.bgs.total[3] > 0) {
-                return (
-                    <Battlegroup type='Special' />
+            if (this.props.state.bgs.SPECIAL) {
+                return this.props.state.bgs.SPECIAL.map(
+                    (special, index) => (
+                    <Battlegroup type='Special' units={special.units} number={index+1} />
+                    )
                 )
             }
         } else {
@@ -64,12 +72,14 @@ class BattleGroups extends Component {
                             <option>0</option>
                             <option>1</option>
                         </select>
+                        {this.renderBattlegroup('HQ')}
                     </section>
                     <section id="Armour Battlegroup">
                         Armour Battlegroups:
                         <select onChange={this.changedArmour}>
                             <option>1</option>
                         </select>
+                        {this.renderBattlegroup('ARM')}
                     </section>
                     <section id="Infantry Battlegroup">
                         Infantry Battlegroups:
@@ -85,6 +95,7 @@ class BattleGroups extends Component {
                             <option>0</option>
                             <option>1</option>
                         </select>
+                        {this.renderBattlegroup('SP')}
                     </section>
                 </div>
             )
@@ -96,6 +107,7 @@ class BattleGroups extends Component {
                         <select onChange={this.changedHQ}>
                             <option>1</option>
                         </select>
+                        {this.renderBattlegroup('HQ')}
                     </section>
                     <section id="Armour Battlegroup">
                         Armour Battlegroups:
@@ -103,6 +115,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('ARM')}
                     </section>
                     <section id="Infantry Battlegroup">
                         Infantry Battlegroups:
@@ -110,6 +123,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('INF')}
                     </section>
                     <section id="Special Battlegroup">
                         Special Battlegroups:
@@ -118,6 +132,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('SP')}
                     </section>
                 </div>
             )
@@ -130,6 +145,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('HQ')}
                     </section>
                     <section id="Armour Battlegroup">
                         Armour Battlegroups:
@@ -137,6 +153,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('ARM')}
                     </section>
                     <section id="Infantry Battlegroup">
                         Infantry Battlegroups:
@@ -144,6 +161,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('INF')}
                     </section>
                     <section id="Special Battlegroup">
                         Special Battlegroups:
@@ -152,6 +170,7 @@ class BattleGroups extends Component {
                             <option>1</option>
                             <option>2</option>
                         </select>
+                        {this.renderBattlegroup('SP')}
                     </section>
                 </div>
             )
@@ -161,18 +180,22 @@ class BattleGroups extends Component {
                     <section id="HQ Battlegroup">
                         HQ Battlegroups:
                     <input onChange={this.changedHQ} />
+                        {this.renderBattlegroup('HQ')}
                     </section>
                     <section id="Armour Battlegroup">
                         Armour Battlegroups:
                     <input onChange={this.changedArmour} />
+                        {this.renderBattlegroup('ARM')}
                     </section>
                     <section id="Infantry Battlegroup">
                         Infantry Battlegroups:
                     <input onChange={this.changedInfantry} />
+                        {this.renderBattlegroup('INF')}
                     </section>
                     <section id="Special Battlegroup">
                         Special Battlegroups:
                     <input onChange={this.changedSpecial} />
+                        {this.renderBattlegroup('SP')}
                     </section>
                 </div>
             )
