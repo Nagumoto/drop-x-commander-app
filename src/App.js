@@ -18,24 +18,30 @@ class App extends Component {
       }
     ],
     bgs: {
-      HQ: [{
+      hq: [
+        [{
+          unitCategory: '',
+          unitName: 'Kodiak',
+          squadSize: 1,
+          commandAssignment: true
+        }]
+      ],
+      armour: [{
         squadType: '',
         units: []
       }],
-      ARMOUR: [{
+      infantry: [{
         squadType: '',
         units: []
       }],
-      INFANTRY: [{
-        squadType: '',
-        units: []
-      }],
-      SPECIAL: [{
+      special: [{
         squadType: '',
         units: []
       }]
     },
-    transports: [
+    transport: [
+    ],
+    airstrike: [
     ]
   }
 
