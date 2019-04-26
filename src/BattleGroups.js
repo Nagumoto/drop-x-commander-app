@@ -27,7 +27,7 @@ class BattleGroups extends Component {
             if (this.props.state.bgs.HQ) {
                 return this.props.state.bgs.HQ.map(
                     (HQ, index) => (
-                    <Battlegroup type='HQ' units={HQ.units} number={index+1} />
+                    <Battlegroup type='HQ' units={HQ.units} number={index+1} data={this.props.state.data} />
                     )
                 )
             }
@@ -35,7 +35,7 @@ class BattleGroups extends Component {
             if (this.props.state.bgs.ARMOUR) {
                 return this.props.state.bgs.ARMOUR.map(
                     (armour, index) => (
-                    <Battlegroup type='Armour' units={armour.units} number={index+1} />
+                    <Battlegroup type='Armour' units={armour.units} number={index+1} data={this.props.state.data} />
                     )
                 )
             }
@@ -43,7 +43,7 @@ class BattleGroups extends Component {
             if (this.props.state.bgs.INFANTRY) {
                 return this.props.state.bgs.INFANTRY.map(
                     (infantry, index) => (
-                    <Battlegroup type='Infantry' units={infantry.units} number={index+1} />
+                    <Battlegroup type='Infantry' units={infantry.units} number={index+1} data={this.props.state.data} />
                     )
                 )
             }
@@ -51,7 +51,7 @@ class BattleGroups extends Component {
             if (this.props.state.bgs.SPECIAL) {
                 return this.props.state.bgs.SPECIAL.map(
                     (special, index) => (
-                    <Battlegroup type='Special' units={special.units} number={index+1} />
+                    <Battlegroup type='Special' units={special.units} number={index+1} data={this.props.state.data} />
                     )
                 )
             }
