@@ -19,15 +19,19 @@ class App extends Component {
     ],
     bgs: {
       HQ: [{
+        squadType: '',
         units: []
       }],
       ARMOUR: [{
+        squadType: '',
         units: []
       }],
       INFANTRY: [{
+        squadType: '',
         units: []
       }],
       SPECIAL: [{
+        squadType: '',
         units: []
       }]
     },
