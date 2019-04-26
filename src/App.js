@@ -17,25 +17,24 @@ class App extends Component {
         commanderAssignment: ''
       }
     ],
-    bgs: [
-      [{
-        name: 'HQ',
+    bgs: {
+      HQ: [{
         units: []
       }],
-      [{
-        name: 'ARMOUR',
+      ARMOUR: [{
         units: []
       }],
-      [{
-        name: 'INFANTRY',
+      INFANTRY: [{
         units: []
       }],
-      [{
-        name: 'SPECIAL',
+      SPECIAL: [{
         units: []
       }]
+    },
+    transports: [
     ]
   }
+
 
   changedBattlegroups = (e) => {
     console.log()
@@ -90,14 +89,11 @@ class App extends Component {
     // let armour = Object.assign({}, this.state.bgs.armour)
     // armour = e.target.value
 
-    let num = parseInt(e.target.value, 10)
+    let num = parseInt(e.target.value - 1, 10)
 
     this.setState({
       bgs: {
-        hq: this.state.bgs.hq,
-        armour: Array(num),
-        infantry: this.state.bgs.infantry,
-        special: this.state.bgs.special
+        ARMOUR: [num]
       }
     }, this.clogBgs)
   }
@@ -179,5 +175,4 @@ class App extends Component {
     )
   }
 }
-
 export default App
